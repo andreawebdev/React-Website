@@ -21,19 +21,16 @@ class NavBar extends React.Component {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="mr-auto">
-            {/* <Link to="/">Home</Link>
-            <Link to="/">Home</Link>
-            <Link to="/">Home</Link> */}
-            <LinkContainer to="/service">
-              <Nav.Link href="/">Home</Nav.Link>
+            <LinkContainer to="/">
+              <Nav.Link>Home</Nav.Link>
             </LinkContainer>
-            <LinkContainer to="/service">
-              <Nav.Link href="/">Home</Nav.Link>
+            <LinkContainer to="/services">
+              <Nav.Link>Home</Nav.Link>
             </LinkContainer>
-            <LinkContainer to="/service">
-              <Nav.Link href="/">Home</Nav.Link>
+            <LinkContainer to="/products">
+              <Nav.Link>Home</Nav.Link>
             </LinkContainer>
-            
+
             <NavDropdown.Divider />
           </Nav>
           {/* <Form inline>

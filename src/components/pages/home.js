@@ -1,12 +1,16 @@
 import React from "react";
 import "../../App.css";
-
-import HeroSection from "../HeroSection";
+import MiddleFolder from "../MiddleFolder";
+import Cards from "../Cards";
+import CardsBigger from "../CardsBigger";
 
 function Home() {
   return (
     <>
-      <HeroSection />
+      <MiddleFolder />
+      <Cards></Cards>
+
+      <CardsBigger></CardsBigger>
     </>
   );
 }

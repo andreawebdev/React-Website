@@ -25,10 +25,10 @@ class NavBar extends React.Component {
               <Nav.Link>Home</Nav.Link>
             </LinkContainer>
             <LinkContainer to="/services">
-              <Nav.Link>Home</Nav.Link>
+              <Nav.Link>Services</Nav.Link>
             </LinkContainer>
             <LinkContainer to="/products">
-              <Nav.Link>Home</Nav.Link>
+              <Nav.Link>Products</Nav.Link>
             </LinkContainer>
 
             <NavDropdown.Divider />

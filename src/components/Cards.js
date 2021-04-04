@@ -7,6 +7,7 @@ import "./Cards.css";
 import Button from "react-bootstrap/Button";
 import { LinkContainer } from "react-router-bootstrap";
 
+
 class Cards extends React.Component {
   render() {
     return (
@@ -18,7 +19,7 @@ class Cards extends React.Component {
         <Container>
           <Row>
             <Col lg={4}>
-              <Card style={{ width: "18rem" }}>
+              <Card className="text-center" style={{ width: "18rem" }}>
                 <Card.Img variant="top" src="images/img-9.jpg" />
                 <Card.Body>
                   <Card.Title>Adventure</Card.Title>
@@ -29,15 +30,14 @@ class Cards extends React.Component {
                     </p>
                   </Card.Text>
                   <LinkContainer to="/services">
-                    <Button variant="primary">Go somewhere</Button>
+                    <Button variant="primary ">Book now</Button>
                   </LinkContainer>
-                  {/* <Button variant="primary">Go somewhere</Button> */}
                 </Card.Body>
               </Card>
             </Col>
             <Col lg={4}>
-              <Card style={{ width: "18rem" }}>
-                <Card.Img variant="top" src="images/img-9.jpg" />
+              <Card className="text-center" style={{ width: "18rem" }}>
+                <Card.Img variant="top" src="images/img-8.jpg" />
                 <Card.Body>
                   <Card.Title>Luxury</Card.Title>
                   <Card.Text>
@@ -46,21 +46,21 @@ class Cards extends React.Component {
                     </p>
                   </Card.Text>
                   <LinkContainer to="/services">
-                    <Button variant="primary">Go somewhere</Button>
+                    <Button variant="primary ">Book now</Button>
                   </LinkContainer>
                 </Card.Body>
               </Card>
             </Col>
             <Col lg={4}>
-              <Card style={{ width: "18rem" }}>
-                <Card.Img variant="top" src="images/img-9.jpg" />
+              <Card className="text-center" style={{ width: "18rem" }}>
+                <Card.Img variant="top" src="images/img-4.jpg" />
                 <Card.Body>
                   <Card.Title>Mistery</Card.Title>
                   <Card.Text>
                     Set Sail in the Atlantic Ocean visiting Uncharted Waters'
                   </Card.Text>
                   <LinkContainer to="/services">
-                    <Button variant="primary">Go somewhere</Button>
+                    <Button variant="primary ">Book now</Button>
                   </LinkContainer>
                 </Card.Body>
               </Card>

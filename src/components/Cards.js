@@ -13,20 +13,20 @@ class Cards extends React.Component {
     return (
       <div className="cards">
         <h1 className="text-center text-dark py-5 pb-5">
-          Check out these EPIC Destinations!
+          Check out our wonderful destinations!
         </h1>
 
         <Container>
           <Row>
             <Col lg={4}>
-              <Card className="text-center" style={{ width: "18rem" }}>
-                <Card.Img variant="top" src="images/img-9.jpg" />
+              <Card className="text-center  " style={{ width: "18rem" }}>
+                <Card.Img variant="top rounded " src="images/img-9.jpg" />
                 <Card.Body>
                   <Card.Title>Adventure</Card.Title>
                   <Card.Text>
                     <p>
-                      Explore the hidden waterfall deep inside the Amazon
-                      Jungle'
+                      "Neque porro quisquam est qui dolorem ipsum quia dolor sit
+                      amet, consectetur, adipisci velit..."
                     </p>
                   </Card.Text>
                   <LinkContainer to="/services">
@@ -42,7 +42,8 @@ class Cards extends React.Component {
                   <Card.Title>Luxury</Card.Title>
                   <Card.Text>
                     <p>
-                      Travel through the Islands of Bali in a Private Cruise'
+                      "Neque porro quisquam est qui dolorem ipsum quia dolor sit
+                      amet, consectetur, adipisci velit..."
                     </p>
                   </Card.Text>
                   <LinkContainer to="/services">
@@ -57,7 +58,8 @@ class Cards extends React.Component {
                 <Card.Body>
                   <Card.Title>Mistery</Card.Title>
                   <Card.Text>
-                    Set Sail in the Atlantic Ocean visiting Uncharted Waters'
+                    "Neque porro quisquam est qui dolorem ipsum quia dolor sit
+                    amet, consectetur, adipisci velit..."
                   </Card.Text>
                   <LinkContainer to="/services">
                     <Button variant="primary ">Book now</Button>

@@ -6,7 +6,7 @@ function MiddleFolder() {
   return (
     <div className="hero-container">
       <video src="/videos/naturefree.mp4" autoPlay loop muted />
-      <h1>ADVENTURE AWAITS</h1>
+      <h1>START YOUR JOURNEY</h1>
       <p>What are you waiting for?</p>
     </div>
   );

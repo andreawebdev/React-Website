@@ -5,9 +5,9 @@ import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import NavDropdown from "react-bootstrap/NavDropdown";
 
-// import Form from "react-bootstrap/Form";
-// import FormControl from "react-bootstrap/FormControl";
-// import Button from "react-bootstrap/Button";
+import Form from "react-bootstrap/Form";
+import FormControl from "react-bootstrap/FormControl";
+import Button from "react-bootstrap/Button";
 
 class NavBar extends React.Component {
   render() {
@@ -15,7 +15,8 @@ class NavBar extends React.Component {
       <Navbar bg="dark" variant="dark" expand="lg" fixed="top">
         <Navbar.Brand>
           <p>
-            MVV <i class="fab fa-typo3" />
+           
+            <i class="fas fa-umbrella-beach fa-2x"></i>
           </p>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -33,10 +34,9 @@ class NavBar extends React.Component {
 
             <NavDropdown.Divider />
           </Nav>
-          {/* <Form inline>
-            <FormControl type="text" placeholder="Search" className="mr-sm-2" />
-            <Button variant="outline-success">Search</Button>
-          </Form> */}
+          <Form inline>
+            <Button variant="outline-warning">Sign Up</Button>
+          </Form>
         </Navbar.Collapse>
       </Navbar>
     );

@@ -10,7 +10,7 @@ import "./CardsBigger.css";
 class CardsBigger extends React.Component {
   render() {
     return (
-      <div className="cardsb">
+      <div className="cardsb pb-5">
         <h1 className="text-center text-white ">More</h1>
 
         <Container>
@@ -22,14 +22,14 @@ class CardsBigger extends React.Component {
                   <Card.Title>Adventure</Card.Title>
                   <Card.Text>
                     <p>
-                      Explore the hidden waterfall deep inside the Amazon
-                      Jungle'
+                      "Neque porro quisquam est qui dolorem ipsum quia dolor sit
+                      amet, consectetur, adipisci velit..."
                     </p>
                   </Card.Text>
                   <LinkContainer to="/services">
                     <Button variant="primary ">Book now</Button>
                   </LinkContainer>
-                  {/* <Button variant="primary">Go somewhere</Button> */}
+                  
                 </Card.Body>
               </Card>
             </Col>
@@ -40,7 +40,8 @@ class CardsBigger extends React.Component {
                   <Card.Title>Luxury</Card.Title>
                   <Card.Text>
                     <p>
-                      Travel through the Islands of Bali in a Private Cruise'
+                      "Neque porro quisquam est qui dolorem ipsum quia dolor sit
+                      amet, consectetur, adipisci velit..."
                     </p>
                   </Card.Text>
                   <LinkContainer to="/services">
@@ -55,7 +56,8 @@ class CardsBigger extends React.Component {
                 <Card.Body>
                   <Card.Title>Mistery</Card.Title>
                   <Card.Text>
-                    Set Sail in the Atlantic Ocean visiting Uncharted Waters'
+                    "Neque porro quisquam est qui dolorem ipsum quia dolor sit
+                    amet, consectetur, adipisci velit..."
                   </Card.Text>
                   <LinkContainer to="/services">
                     <Button variant="primary ">Book now</Button>

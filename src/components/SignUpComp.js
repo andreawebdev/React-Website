@@ -29,7 +29,7 @@ class SignUp extends Component {
       password: this.state.password,
     };
 
-    // per pulire la pagina
+    
     this.setState({
       fullname: "",
       username: "",

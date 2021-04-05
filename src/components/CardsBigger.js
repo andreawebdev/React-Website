@@ -11,7 +11,8 @@ class CardsBigger extends React.Component {
   render() {
     return (
       <div className="cardsb pb-5">
-        <h1 className="text-center text-white ">More</h1>
+        <br></br>
+        <br></br>
 
         <Container>
           <Row>
@@ -29,7 +30,6 @@ class CardsBigger extends React.Component {
                   <LinkContainer to="/services">
                     <Button variant="primary ">Book now</Button>
                   </LinkContainer>
-                  
                 </Card.Body>
               </Card>
             </Col>

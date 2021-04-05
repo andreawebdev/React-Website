@@ -15,7 +15,6 @@ class NavBar extends React.Component {
       <Navbar bg="dark" variant="dark" expand="lg" fixed="top">
         <Navbar.Brand>
           <p>
-           
             <i class="fas fa-umbrella-beach fa-2x"></i>
           </p>
         </Navbar.Brand>
@@ -25,18 +24,24 @@ class NavBar extends React.Component {
             <LinkContainer to="/">
               <Nav.Link>Home</Nav.Link>
             </LinkContainer>
-            <LinkContainer to="/services">
+            <LinkContainer disabled to="/services">
               <Nav.Link>Services</Nav.Link>
             </LinkContainer>
-            <LinkContainer to="/products">
+            <LinkContainer disabled to="/products">
               <Nav.Link>Products</Nav.Link>
             </LinkContainer>
 
             <NavDropdown.Divider />
           </Nav>
-          <Form inline>
+
+          <LinkContainer to="/SignUp">
+            <Form inline>
+              <Button variant="outline-warning">Sign Up</Button>
+            </Form>
+          </LinkContainer>
+          {/* <Form inline>
             <Button variant="outline-warning">Sign Up</Button>
-          </Form>
+          </Form> */}
         </Navbar.Collapse>
       </Navbar>
     );

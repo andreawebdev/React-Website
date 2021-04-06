@@ -17,7 +17,7 @@ class Cards extends React.Component {
 
         <Container>
           <Row>
-            <Col lg={4}>
+            <Col lg={4} md={6}>
               <Card className="text-center  " style={{ width: "18rem" }}>
                 <Card.Img variant="top rounded " src="images/img-9.jpg" />
                 <Card.Body>
@@ -34,7 +34,7 @@ class Cards extends React.Component {
                 </Card.Body>
               </Card>
             </Col>
-            <Col lg={4}>
+            <Col lg={4} md={6}>
               <Card className="text-center my-4" style={{ width: "18rem" }}>
                 <Card.Img variant="top" src="images/img-8.jpg" />
                 <Card.Body>
@@ -51,9 +51,54 @@ class Cards extends React.Component {
                 </Card.Body>
               </Card>
             </Col>
-            <Col lg={4}>
+            <Col lg={4} md={6}>
               <Card className="text-center my-4" style={{ width: "18rem" }}>
                 <Card.Img variant="top" src="images/img-4.jpg" />
+                <Card.Body>
+                  <Card.Title>Mistery</Card.Title>
+                  <Card.Text>
+                    "Neque porro quisquam est qui dolorem ipsum quia dolor sit
+                    amet, consectetur, adipisci velit..."
+                  </Card.Text>
+                  <LinkContainer to="/services">
+                    <Button variant="primary ">Book now</Button>
+                  </LinkContainer>
+                </Card.Body>
+              </Card>
+            </Col>
+            <Col lg={4} md={6}>
+              <Card className="text-center my-4" style={{ width: "18rem" }}>
+                <Card.Img variant="top" src="images/img-4.jpg" />
+                <Card.Body>
+                  <Card.Title>Mistery</Card.Title>
+                  <Card.Text>
+                    "Neque porro quisquam est qui dolorem ipsum quia dolor sit
+                    amet, consectetur, adipisci velit..."
+                  </Card.Text>
+                  <LinkContainer to="/services">
+                    <Button variant="primary ">Book now</Button>
+                  </LinkContainer>
+                </Card.Body>
+              </Card>
+            </Col>
+            <Col lg={4} md={6}>
+              <Card className="text-center my-4" style={{ width: "18rem" }}>
+                <Card.Img variant="top" src="images/img-9.jpg" />
+                <Card.Body>
+                  <Card.Title>Mistery</Card.Title>
+                  <Card.Text>
+                    "Neque porro quisquam est qui dolorem ipsum quia dolor sit
+                    amet, consectetur, adipisci velit..."
+                  </Card.Text>
+                  <LinkContainer to="/services">
+                    <Button variant="primary ">Book now</Button>
+                  </LinkContainer>
+                </Card.Body>
+              </Card>
+            </Col>
+            <Col lg={4} md={6}>
+              <Card className="text-center my-4" style={{ width: "18rem" }}>
+                <Card.Img variant="top" src="images/img-8.jpg" />
                 <Card.Body>
                   <Card.Title>Mistery</Card.Title>
                   <Card.Text>

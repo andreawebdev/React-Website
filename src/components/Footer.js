@@ -89,7 +89,7 @@ function Footer() {
               <li>
                 <Link
                   class="social-icon-link instagram"
-                  to="/"
+                  to=""
                   target="_blank"
                   aria-label="Instagram"
                 >
@@ -99,7 +99,7 @@ function Footer() {
               <li>
                 <Link
                   class="social-icon-link youtube"
-                  to="/"
+                  to=""
                   target="_blank"
                   aria-label="Youtube"
                 >
@@ -109,7 +109,7 @@ function Footer() {
               <li>
                 <Link
                   class="social-icon-link twitter"
-                  to="/"
+                  to=""
                   target="_blank"
                   aria-label="LinkedIn"
                 >
@@ -119,7 +119,7 @@ function Footer() {
               <li>
                 <Link
                   class="social-icon-link facebook"
-                  to="/"
+                  to=""
                   target="_blank"
                   aria-label="Facebook"
                 >

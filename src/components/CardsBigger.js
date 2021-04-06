@@ -34,7 +34,7 @@ class CardsBigger extends React.Component {
               </Card>
             </Col>
             <Col lg={4}>
-              <Card className="text-center" style={{ width: "18rem" }}>
+              <Card className="text-center my-4" style={{ width: "18rem" }}>
                 <Card.Img variant="top" src="images/img-5.jpg" />
                 <Card.Body>
                   <Card.Title>Luxury</Card.Title>
@@ -51,7 +51,7 @@ class CardsBigger extends React.Component {
               </Card>
             </Col>
             <Col lg={4}>
-              <Card className="text-center" style={{ width: "18rem" }}>
+              <Card className="text-center my-4" style={{ width: "18rem" }}>
                 <Card.Img variant="top" src="images/img-6.jpg" />
                 <Card.Body>
                   <Card.Title>Mistery</Card.Title>

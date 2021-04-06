@@ -7,7 +7,6 @@ import "./Cards.css";
 import Button from "react-bootstrap/Button";
 import { LinkContainer } from "react-router-bootstrap";
 
-
 class Cards extends React.Component {
   render() {
     return (
@@ -36,7 +35,7 @@ class Cards extends React.Component {
               </Card>
             </Col>
             <Col lg={4}>
-              <Card className="text-center" style={{ width: "18rem" }}>
+              <Card className="text-center my-4" style={{ width: "18rem" }}>
                 <Card.Img variant="top" src="images/img-8.jpg" />
                 <Card.Body>
                   <Card.Title>Luxury</Card.Title>
@@ -53,7 +52,7 @@ class Cards extends React.Component {
               </Card>
             </Col>
             <Col lg={4}>
-              <Card className="text-center" style={{ width: "18rem" }}>
+              <Card className="text-center my-4" style={{ width: "18rem" }}>
                 <Card.Img variant="top" src="images/img-4.jpg" />
                 <Card.Body>
                   <Card.Title>Mistery</Card.Title>

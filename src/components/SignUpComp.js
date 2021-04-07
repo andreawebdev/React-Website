@@ -91,7 +91,7 @@ class SignUp extends Component {
               placeholder="Email"
             />
             <input
-              type="number"
+              type="password"
               onChange={this.changepassword}
               value={this.state.password}
               className="form-control form-group"

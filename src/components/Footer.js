@@ -8,7 +8,7 @@ function Footer() {
       <div className="container">
         <div className="row">
           <div className="col-sm-12 col-md-6">
-            <h6 className="text-center">About</h6>
+            <h6 className="text-center">Lorem ipsum</h6>
             <p className="text-justify">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit.
               Pellentesque in ex fringilla, facilisis mauris eget, condimentum

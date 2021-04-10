@@ -15,7 +15,7 @@ function Team() {
             />
             <div className="card-body text-center">
               <h5 className="card-title mb-0">Team Member</h5>
-              <div className="card-text text-black-50">Web Developer</div>
+              <div className="card-text text-black-50">Founding partner</div>
             </div>
           </div>
         </div>

@@ -24,6 +24,12 @@ class NavBar extends React.Component {
             <LinkContainer to="/">
               <Nav.Link>Home</Nav.Link>
             </LinkContainer>
+
+          
+            <Nav.Link
+              href="#team">Team
+            </Nav.Link>
+            
             <LinkContainer disabled to="/services">
               <Nav.Link>Services</Nav.Link>
             </LinkContainer>

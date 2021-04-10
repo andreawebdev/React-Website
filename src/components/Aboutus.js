@@ -8,7 +8,7 @@ function Aboutus() {
       <div className="container my-5 ">
         <div className="row">
           <div className="col-12 col-md-6 col-lg-6 mb-4">
-            <img className="about_us" src="images/img-4.jpg" />
+            <img className="about_us" src="images/aboutus.jpg" />
           </div>
           <div className="col-12 col-md-6 col-lg-6 text-justify ">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec

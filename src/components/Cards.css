@@ -1,12 +1,13 @@
 .cards {
   background-color: rgb(245, 219, 186);
+  
 }
 
 h1 {
   text-align: center;
 }
 .btn-custom {
-background-color: rgb(241, 219, 19);
+background-color: rgb(241, 163, 19);
 color: aliceblue;
-
+border-radius: 16px;
 }

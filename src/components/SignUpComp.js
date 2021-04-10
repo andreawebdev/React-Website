@@ -2,6 +2,7 @@ import React, { Component } from "react";
 // import "../../App.css"
 import "../App.css";
 import "./MiddleFolder.css";
+import "./SignUpComp.css";
 
 class SignUp extends Component {
   constructor() {
@@ -97,7 +98,7 @@ class SignUp extends Component {
               className="form-control form-group"
               placeholder="Password"
             />
-            <input type="submit" className="btn btn-warning  " value="submit" />
+            <input type="submit" className="btn button_c  " value="submit" />
           </form>
         </div>
       </div>

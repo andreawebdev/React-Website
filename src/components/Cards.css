@@ -5,3 +5,8 @@
 h1 {
   text-align: center;
 }
+.btn-custom {
+background-color: rgb(252, 143, 0);
+color: aliceblue;
+
+}

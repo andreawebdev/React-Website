@@ -29,7 +29,9 @@ class Cards extends React.Component {
                     </p>
                   </Card.Text>
                   <LinkContainer to="/services">
-                    <Button variant="primary ">Book now</Button>
+                    <Button variant="outline-warning" className="btn-custom ">
+                      Book now
+                    </Button>
                   </LinkContainer>
                 </Card.Body>
               </Card>
@@ -46,7 +48,9 @@ class Cards extends React.Component {
                     </p>
                   </Card.Text>
                   <LinkContainer to="/services">
-                    <Button variant="primary ">Book now</Button>
+                    <Button variant="outline-warning" className="btn-custom ">
+                      Book now
+                    </Button>
                   </LinkContainer>
                 </Card.Body>
               </Card>
@@ -61,7 +65,9 @@ class Cards extends React.Component {
                     amet, consectetur, adipisci velit..."
                   </Card.Text>
                   <LinkContainer to="/services">
-                    <Button variant="primary ">Book now</Button>
+                    <Button variant="outline-warning" className="btn-custom ">
+                      Book now
+                    </Button>
                   </LinkContainer>
                 </Card.Body>
               </Card>
@@ -76,7 +82,9 @@ class Cards extends React.Component {
                     amet, consectetur, adipisci velit..."
                   </Card.Text>
                   <LinkContainer to="/services">
-                    <Button variant="primary ">Book now</Button>
+                    <Button variant="outline-warning" className="btn-custom ">
+                      Book now
+                    </Button>
                   </LinkContainer>
                 </Card.Body>
               </Card>
@@ -91,7 +99,9 @@ class Cards extends React.Component {
                     amet, consectetur, adipisci velit..."
                   </Card.Text>
                   <LinkContainer to="/services">
-                    <Button variant="primary ">Book now</Button>
+                    <Button variant="outline-warning" className="btn-custom ">
+                      Book now
+                    </Button>
                   </LinkContainer>
                 </Card.Body>
               </Card>
@@ -106,7 +116,9 @@ class Cards extends React.Component {
                     amet, consectetur, adipisci velit..."
                   </Card.Text>
                   <LinkContainer to="/services">
-                    <Button variant="primary ">Book now</Button>
+                    <Button variant="outline-warning" className="btn-custom ">
+                      Book now
+                    </Button>
                   </LinkContainer>
                 </Card.Body>
               </Card>

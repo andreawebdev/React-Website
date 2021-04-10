@@ -6,11 +6,13 @@ import Cards from "../Cards";
 import Footer from "../Footer";
 import Carosello from "../Carosello";
 import Team from "../Team";
+import Aboutus from "../Aboutus";
 
 function Home() {
   return (
     <>
       <MiddleFolder />
+      <Aboutus></Aboutus>
       <Cards />
       <Carosello></Carosello>
       {/* <CardsBigger /> */}

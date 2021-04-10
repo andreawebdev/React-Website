@@ -27,6 +27,9 @@ class NavBar extends React.Component {
 
           
             <Nav.Link
+              href="#about">About
+            </Nav.Link>
+            <Nav.Link
               href="#team">Team
             </Nav.Link>
             

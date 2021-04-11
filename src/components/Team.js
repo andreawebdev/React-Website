@@ -1,8 +1,13 @@
 import React from "react";
 import "./team.css";
-
+// import {Spring} from "react-spring"
 function Team() {
+
+  
   return (
+  // <Spring>{props=>(
+  //   <div style={props}></div>
+  // )}</Spring>
     <div className="container my-5 mt-5 hero_1 " id="team">
       <h1 className="mb-5 text-dark ">Our Team</h1>
       <div className="row">

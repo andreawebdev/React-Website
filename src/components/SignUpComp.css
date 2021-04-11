@@ -3,3 +3,14 @@
   color: aliceblue;
   border-radius: 16px;
 }
+.myform{
+  padding: 20px;
+}
+
+.myform .form-group{
+  padding-bottom: 15px;
+}
+.myform input [type="text"]{
+  padding: 8px;
+  width: 100%;
+}

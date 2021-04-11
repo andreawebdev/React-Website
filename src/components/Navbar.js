@@ -8,14 +8,15 @@ import NavDropdown from "react-bootstrap/NavDropdown";
 import Form from "react-bootstrap/Form";
 // import FormControl from "react-bootstrap/FormControl";
 import Button from "react-bootstrap/Button";
+import "./Navbar.css";
 
 class NavBar extends React.Component {
   render() {
     return (
-      <Navbar bg="dark" variant="dark" expand="lg" fixed="top">
+      <Navbar className="nvbar_my" variant="dark" expand="lg" fixed="top">
         <Navbar.Brand>
           <p>
-            <i class="fas fa-umbrella-beach fa-2x"></i>
+            <i class="fab fa-affiliatetheme fa-1x"></i>
           </p>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -25,14 +26,9 @@ class NavBar extends React.Component {
               <Nav.Link>Home</Nav.Link>
             </LinkContainer>
 
-          
-            <Nav.Link
-              href="#about">About
-            </Nav.Link>
-            <Nav.Link
-              href="#team">Team
-            </Nav.Link>
-            
+            <Nav.Link href="#about">About</Nav.Link>
+            <Nav.Link href="#team">Team</Nav.Link>
+
             <LinkContainer disabled to="/services">
               <Nav.Link>Services</Nav.Link>
             </LinkContainer>

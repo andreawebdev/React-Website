@@ -68,7 +68,7 @@ class SignUp extends Component {
           <h1 className=" text-center mb-5 my-5 ">Sign up</h1>
         </div>
 
-        <div className="form-div">
+        <div className="form-div myform">
           <form onSubmit={this.onSubmit}>
             <input
               type="text"

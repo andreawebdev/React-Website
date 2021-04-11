@@ -1,4 +1,9 @@
-/* a.active1 nav-link{
-background: antiquewhite;
-} */
-/* <a href="/" data-rb-event-key="/" class="active nav-link active">Home</a> */
+.nvbar_my{
+background-color: rgb(20, 20, 20);
+color: antiquewhite;
+
+}
+
+a.active.nav-link{
+   background-color: rgb(20, 20, 20);
+}

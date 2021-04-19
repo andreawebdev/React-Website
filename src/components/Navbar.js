@@ -41,7 +41,7 @@ class NavBar extends React.Component {
 
           <LinkContainer to="/SignUp">
             <Form inline>
-              <Button variant="outline-warning">Sign Up</Button>
+              <Button  variant="outline-warning">Sign Up</Button>
             </Form>
           </LinkContainer>
           {/* <Form inline>

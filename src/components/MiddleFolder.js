@@ -5,12 +5,20 @@ import "./MiddleFolder.css";
 function MiddleFolder() {
   const date =new Date()
   const hours=date.getHours()
+  console.log(hours)
   let time
+   
+  const  mystyle={
 
+   fontSize:80
+  }
+  
   if (hours<12){
     time="morning"
-  }else if (hours >=12 && hours<18){
+    mystyle.color="white"
+  } else if (hours >=12 && hours<18){
     time="afternoon"
+        mystyle.color="yellow"
   }else  (
     time="evening"
   )
@@ -18,9 +26,9 @@ function MiddleFolder() {
   return (
     <div className="hero-container">
       <video src="/videos/naturefree.mp4" autoPlay loop muted />
-      {/* <p className="my-4">GOOD {time}!</p> */}
-      <h1>Good {time}! It's time to book your holiday!</h1>
-      {/* <p>What are you waiting for?</p> */}
+      
+      <h1 style={mystyle}>Good {time}! It's time to book your holiday!</h1>
+      
     </div>
   );
 }

@@ -6,8 +6,8 @@
   line-height:24px;
   color:#faefef;
   /* clip-path: polygon(19% 20%, 100% 0, 100% 100%, 16% 100%, 0 100%, 0% 50%); */
-  clip-path: polygon(0 1%, 100% 0, 100% 61%, 11% 96%, 0 100%, 0% 50%);
-  height:15cm;
+  /* clip-path: polygon(0 1%, 100% 0, 100% 61%, 11% 96%, 0 100%, 0% 50%); */
+  /* height:15cm; */
 }
 .site-footer hr
 {

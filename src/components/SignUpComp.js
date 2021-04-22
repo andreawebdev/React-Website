@@ -61,7 +61,7 @@ class SignUp extends Component {
 
   render() {
     return (
-      <div className="container text-center my-5">
+      <div className="container  text-center my-5">
       <br></br>
       <br></br>
         <div className="text-center mb-5 my-5 ">

@@ -21,7 +21,7 @@ function Aboutus() {
   const props = useSpring({
     opacity: 1,
     marginTop: 0,
-    from: { opacity: 0, marginTop: 400 },
+    from: { opacity: 0, marginTop: 150 },
     config: { delay: 1000, duration: 4000 },
   });
   

@@ -1,7 +1,17 @@
 .about_us {
   
   display: flex;
-  width: 100%;
+  width: 95%;
   height: auto;
-  /* border-radius: 98%; */
+  
 }
+.about_us1 {
+  
+  display: flex;
+  width: 95%;
+  height: auto;
+  
+}
+
+
+

@@ -1,7 +1,15 @@
-/* .cardsb {
-  background-color: rgb(245, 219, 186);
+.cardsb {
+   background-color: rgb(238, 227, 214);
 }
 
 h1 {
   text-align: center;
-} */
+}
+
+
+
+.btn-custom {
+background-color: rgb(241, 163, 19);
+color: aliceblue;
+border-radius: 16px;
+}

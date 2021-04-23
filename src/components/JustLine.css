@@ -8,5 +8,5 @@ background: linear-gradient(to top, #1CB5E0, #000046); /* W3C, IE 10+/ Edge, Fir
 
 
 
-    clip-path: polygon(0 0, 100% 0, 100% 57%, 0 87%);
+    /* clip-path: polygon(0 0, 100% 0, 100% 57%, 0 87%); */
 }

@@ -13,13 +13,16 @@ import Header from "../Header";
 function Home() {
   return (
     <>
-    <Header></Header>
-      
-      <Aboutus></Aboutus>
-      <JustLine name="our summer" />
+      <Header></Header>
+
+      {/* <Aboutus></Aboutus> */}
+      {/* <JustLine name="our summer" /> */}
       <Cards />
+      <Aboutus></Aboutus>
+       <JustLine name="our summer" />
       <Carosello></Carosello>
       {/* <CardsBigger /> */}
+     
       <JustLine name="our winter" />
       <Team></Team>
       <Footer />

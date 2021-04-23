@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 // import "../../App.css"
 import "../App.css";
-import "./MiddleFolder.css";
+import "./Header.css";
 import "./SignUpComp.css";
 
 class SignUp extends Component {

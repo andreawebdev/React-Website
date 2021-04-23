@@ -5,5 +5,7 @@
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  background-blend-mode: color-burn;
+  background-blend-mode:darken;
+  background-color: transparent;
+  
 }

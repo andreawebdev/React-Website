@@ -18,22 +18,25 @@ function Cards () {
      const props = useSpring({
        opacity: 1,
        from: { opacity: 0,},
-       config:{delay:2000, duration:8000},
+       config:{delay:0, duration:2000},
      });
     
     return (
       <animated.div style={props} className="cards">
-        <h1 className="text-center text-dark py-5 pb-5">
+        {/* <h1 className="text-center text-dark py-5 pb-5">
           Check out our wonderful destinations!
-        </h1>
-
+        </h1> */}
+       <br></br>
+       <br></br>
+       <br></br>
+      
         <Container>
           <Row>
             <Col lg={4} md={6}>
-              <Card className="text-center  " style={{ width: "18rem" }}>
-                <Card.Img variant="top rounded " src="images/img-9.jpg" />
+              <Card className="text-center my-4 " style={{ width: "18rem" }}>
+                <Card.Img variant="top rounded " src="images/roma.jpg" />
                 <Card.Body>
-                  <Card.Title>Adventure</Card.Title>
+                  <Card.Title>Rome</Card.Title>
                   <Card.Text>
                     <p>
                       "Neque porro quisquam est qui dolorem ipsum quia dolor sit
@@ -50,9 +53,9 @@ function Cards () {
             </Col>
             <Col lg={4} md={6}>
               <Card className="text-center my-4" style={{ width: "18rem" }}>
-                <Card.Img variant="top" src="images/img-8.jpg" />
+                <Card.Img variant="top" src="images/london.jpg" />
                 <Card.Body>
-                  <Card.Title>Luxury</Card.Title>
+                  <Card.Title>London</Card.Title>
                   <Card.Text>
                     <p>
                       "Neque porro quisquam est qui dolorem ipsum quia dolor sit
@@ -69,9 +72,9 @@ function Cards () {
             </Col>
             <Col lg={4} md={6}>
               <Card className="text-center my-4" style={{ width: "18rem" }}>
-                <Card.Img variant="top" src="images/img-4.jpg" />
+                <Card.Img variant="top" src="images/paris.jpg" />
                 <Card.Body>
-                  <Card.Title>Mistery</Card.Title>
+                  <Card.Title>Paris</Card.Title>
                   <Card.Text>
                     "Neque porro quisquam est qui dolorem ipsum quia dolor sit
                     amet, consectetur, adipisci velit..."
@@ -86,9 +89,9 @@ function Cards () {
             </Col>
             <Col lg={4} md={6}>
               <Card className="text-center my-4" style={{ width: "18rem" }}>
-                <Card.Img variant="top" src="images/img-4.jpg" />
+                <Card.Img variant="top" src="images/barcellona.jpg" />
                 <Card.Body>
-                  <Card.Title>Mistery</Card.Title>
+                  <Card.Title>Barcellona</Card.Title>
                   <Card.Text>
                     "Neque porro quisquam est qui dolorem ipsum quia dolor sit
                     amet, consectetur, adipisci velit..."
@@ -103,9 +106,9 @@ function Cards () {
             </Col>
             <Col lg={4} md={6}>
               <Card className="text-center my-4" style={{ width: "18rem" }}>
-                <Card.Img variant="top" src="images/img-9.jpg" />
+                <Card.Img variant="top" src="images/new.jpg" />
                 <Card.Body>
-                  <Card.Title>Mistery</Card.Title>
+                  <Card.Title>New york</Card.Title>
                   <Card.Text>
                     "Neque porro quisquam est qui dolorem ipsum quia dolor sit
                     amet, consectetur, adipisci velit..."
@@ -120,9 +123,9 @@ function Cards () {
             </Col>
             <Col lg={4} md={6}>
               <Card className="text-center my-4" style={{ width: "18rem" }}>
-                <Card.Img variant="top" src="images/img-8.jpg" />
+                <Card.Img variant="top" src="images/sidney1.jpg" />
                 <Card.Body>
-                  <Card.Title>Mistery</Card.Title>
+                  <Card.Title>Sidney</Card.Title>
                   <Card.Text>
                     "Neque porro quisquam est qui dolorem ipsum quia dolor sit
                     amet, consectetur, adipisci velit..."

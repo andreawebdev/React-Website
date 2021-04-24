@@ -3,6 +3,7 @@ import "./Header.css";
 
 export default class Header extends Component {
     render() {
+      
         const date = new Date();
         const hours = date.getHours();
         console.log(hours);
@@ -17,12 +18,16 @@ export default class Header extends Component {
 
         if (hours < 12) {
           time = "morning";
-          mystyle.color = "white";
+          mystyle.color = "rgb(223, 226, 28)";
         } else if (hours >= 12 && hours < 18) {
           time = "afternoon";
-          mystyle.color = "yellow";
+          mystyle.color = "rgb(226, 160, 28)";
         } else time = "evening";
-        return (
+        
+         mystyle.color = "rgb(251, 217, 3 )";
+        
+        
+         return (
           <header>
             <div
               className="point"
@@ -37,18 +42,18 @@ export default class Header extends Component {
                       Good {time}!
                     </h1>
                     <h1 className="text-left" style={mystyle}>
-                      Hundreds of destinations
+                      Check out our wonderful
                     </h1>
                     <h1 className="text-left" style={mystyle}>
-                      worldwide!
+                      destinations!
                     </h1>
                     <p className="text-left text-white" style={mystyle2}>
                       We handpicked hundreds of the most spectacular summer
-                      destinations all over the globe. 
+                      destinations all over the globe.
                     </p>
                     <p className="text-left text-white" style={mystyle2}>
-                       Relax your body and soul
-                      in the most remote corners of the world.
+                      Relax your body and soul in the most remote corners of the
+                      world.
                     </p>
                   </div>
                 </div>

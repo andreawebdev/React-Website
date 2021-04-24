@@ -10,6 +10,7 @@ import "./CardsBigger.css";
 class CardsBigger extends React.Component {
   render() {
     return (
+      <section id="promo">
       <div className="cardsb pb-5">
         <br></br>
         <br></br>
@@ -125,6 +126,7 @@ class CardsBigger extends React.Component {
           </Row>
         </Container>
       </div>
+      </section>
     );
   }
 }

@@ -22,125 +22,127 @@ function Cards () {
      });
     
     return (
-      <animated.div style={props} className="cards">
-        {/* <h1 className="text-center text-dark py-5 pb-5">
+      <section id="destinations">
+        <animated.div style={props} className="cards">
+          {/* <h1 className="text-center text-dark py-5 pb-5">
           Check out our wonderful destinations!
         </h1> */}
-       <br></br>
-       <br></br>
-       <br></br>
-      
-        <Container>
-          <Row>
-            <Col lg={4} md={6}>
-              <Card className="text-center my-4 " style={{ width: "18rem" }}>
-                <Card.Img variant="top rounded " src="images/roma.jpg" />
-                <Card.Body>
-                  <Card.Title>Rome</Card.Title>
-                  <Card.Text>
-                    <p>
+          <br></br>
+          <br></br>
+          <br></br>
+
+          <Container>
+            <Row>
+              <Col lg={4} md={6}>
+                <Card className="text-center my-4 " style={{ width: "18rem" }}>
+                  <Card.Img variant="top rounded " src="images/roma.jpg" />
+                  <Card.Body>
+                    <Card.Title>Rome</Card.Title>
+                    <Card.Text>
+                      <p>
+                        "Neque porro quisquam est qui dolorem ipsum quia dolor
+                        sit amet, consectetur, adipisci velit..."
+                      </p>
+                    </Card.Text>
+                    <LinkContainer to="/services">
+                      <Button variant="outline-warning" className="btn-custom ">
+                        Book now
+                      </Button>
+                    </LinkContainer>
+                  </Card.Body>
+                </Card>
+              </Col>
+              <Col lg={4} md={6}>
+                <Card className="text-center my-4" style={{ width: "18rem" }}>
+                  <Card.Img variant="top" src="images/london.jpg" />
+                  <Card.Body>
+                    <Card.Title>London</Card.Title>
+                    <Card.Text>
+                      <p>
+                        "Neque porro quisquam est qui dolorem ipsum quia dolor
+                        sit amet, consectetur, adipisci velit..."
+                      </p>
+                    </Card.Text>
+                    <LinkContainer to="/services">
+                      <Button variant="outline-warning" className="btn-custom ">
+                        Book now
+                      </Button>
+                    </LinkContainer>
+                  </Card.Body>
+                </Card>
+              </Col>
+              <Col lg={4} md={6}>
+                <Card className="text-center my-4" style={{ width: "18rem" }}>
+                  <Card.Img variant="top" src="images/paris.jpg" />
+                  <Card.Body>
+                    <Card.Title>Paris</Card.Title>
+                    <Card.Text>
                       "Neque porro quisquam est qui dolorem ipsum quia dolor sit
                       amet, consectetur, adipisci velit..."
-                    </p>
-                  </Card.Text>
-                  <LinkContainer to="/services">
-                    <Button variant="outline-warning" className="btn-custom ">
-                      Book now
-                    </Button>
-                  </LinkContainer>
-                </Card.Body>
-              </Card>
-            </Col>
-            <Col lg={4} md={6}>
-              <Card className="text-center my-4" style={{ width: "18rem" }}>
-                <Card.Img variant="top" src="images/london.jpg" />
-                <Card.Body>
-                  <Card.Title>London</Card.Title>
-                  <Card.Text>
-                    <p>
+                    </Card.Text>
+                    <LinkContainer to="/services">
+                      <Button variant="outline-warning" className="btn-custom ">
+                        Book now
+                      </Button>
+                    </LinkContainer>
+                  </Card.Body>
+                </Card>
+              </Col>
+              <Col lg={4} md={6}>
+                <Card className="text-center my-4" style={{ width: "18rem" }}>
+                  <Card.Img variant="top" src="images/barcellona.jpg" />
+                  <Card.Body>
+                    <Card.Title>Barcellona</Card.Title>
+                    <Card.Text>
                       "Neque porro quisquam est qui dolorem ipsum quia dolor sit
                       amet, consectetur, adipisci velit..."
-                    </p>
-                  </Card.Text>
-                  <LinkContainer to="/services">
-                    <Button variant="outline-warning" className="btn-custom ">
-                      Book now
-                    </Button>
-                  </LinkContainer>
-                </Card.Body>
-              </Card>
-            </Col>
-            <Col lg={4} md={6}>
-              <Card className="text-center my-4" style={{ width: "18rem" }}>
-                <Card.Img variant="top" src="images/paris.jpg" />
-                <Card.Body>
-                  <Card.Title>Paris</Card.Title>
-                  <Card.Text>
-                    "Neque porro quisquam est qui dolorem ipsum quia dolor sit
-                    amet, consectetur, adipisci velit..."
-                  </Card.Text>
-                  <LinkContainer to="/services">
-                    <Button variant="outline-warning" className="btn-custom ">
-                      Book now
-                    </Button>
-                  </LinkContainer>
-                </Card.Body>
-              </Card>
-            </Col>
-            <Col lg={4} md={6}>
-              <Card className="text-center my-4" style={{ width: "18rem" }}>
-                <Card.Img variant="top" src="images/barcellona.jpg" />
-                <Card.Body>
-                  <Card.Title>Barcellona</Card.Title>
-                  <Card.Text>
-                    "Neque porro quisquam est qui dolorem ipsum quia dolor sit
-                    amet, consectetur, adipisci velit..."
-                  </Card.Text>
-                  <LinkContainer to="/services">
-                    <Button variant="outline-warning" className="btn-custom ">
-                      Book now
-                    </Button>
-                  </LinkContainer>
-                </Card.Body>
-              </Card>
-            </Col>
-            <Col lg={4} md={6}>
-              <Card className="text-center my-4" style={{ width: "18rem" }}>
-                <Card.Img variant="top" src="images/new.jpg" />
-                <Card.Body>
-                  <Card.Title>New york</Card.Title>
-                  <Card.Text>
-                    "Neque porro quisquam est qui dolorem ipsum quia dolor sit
-                    amet, consectetur, adipisci velit..."
-                  </Card.Text>
-                  <LinkContainer to="/services">
-                    <Button variant="outline-warning" className="btn-custom ">
-                      Book now
-                    </Button>
-                  </LinkContainer>
-                </Card.Body>
-              </Card>
-            </Col>
-            <Col lg={4} md={6}>
-              <Card className="text-center my-4" style={{ width: "18rem" }}>
-                <Card.Img variant="top" src="images/sidney1.jpg" />
-                <Card.Body>
-                  <Card.Title>Sidney</Card.Title>
-                  <Card.Text>
-                    "Neque porro quisquam est qui dolorem ipsum quia dolor sit
-                    amet, consectetur, adipisci velit..."
-                  </Card.Text>
-                  <LinkContainer to="/services">
-                    <Button variant="outline-warning" className="btn-custom ">
-                      Book now
-                    </Button>
-                  </LinkContainer>
-                </Card.Body>
-              </Card>
-            </Col>
-          </Row>
-        </Container>
-      </animated.div>
+                    </Card.Text>
+                    <LinkContainer to="/services">
+                      <Button variant="outline-warning" className="btn-custom ">
+                        Book now
+                      </Button>
+                    </LinkContainer>
+                  </Card.Body>
+                </Card>
+              </Col>
+              <Col lg={4} md={6}>
+                <Card className="text-center my-4" style={{ width: "18rem" }}>
+                  <Card.Img variant="top" src="images/new.jpg" />
+                  <Card.Body>
+                    <Card.Title>New york</Card.Title>
+                    <Card.Text>
+                      "Neque porro quisquam est qui dolorem ipsum quia dolor sit
+                      amet, consectetur, adipisci velit..."
+                    </Card.Text>
+                    <LinkContainer to="/services">
+                      <Button variant="outline-warning" className="btn-custom ">
+                        Book now
+                      </Button>
+                    </LinkContainer>
+                  </Card.Body>
+                </Card>
+              </Col>
+              <Col lg={4} md={6}>
+                <Card className="text-center my-4" style={{ width: "18rem" }}>
+                  <Card.Img variant="top" src="images/sidney1.jpg" />
+                  <Card.Body>
+                    <Card.Title>Sidney</Card.Title>
+                    <Card.Text>
+                      "Neque porro quisquam est qui dolorem ipsum quia dolor sit
+                      amet, consectetur, adipisci velit..."
+                    </Card.Text>
+                    <LinkContainer to="/services">
+                      <Button variant="outline-warning" className="btn-custom ">
+                        Book now
+                      </Button>
+                    </LinkContainer>
+                  </Card.Body>
+                </Card>
+              </Col>
+            </Row>
+          </Container>
+        </animated.div>
+      </section>
     );
   
 }

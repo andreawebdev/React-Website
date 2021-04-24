@@ -8,7 +8,8 @@ function Team() {
   // <Spring>{props=>(
   //   <div style={props}></div>
   // )}</Spring>
-    <div className="container my-5 mt-5 hero_1 " id="team">
+  <section>
+    <div className="container my-5 mt-5 hero_1 ">
       <h1 className="mb-5 text-dark ">Our Team</h1>
       <div className="row">
         <div className="col-xl-3 col-md-6 mb-4">
@@ -68,6 +69,7 @@ function Team() {
         </div>
       </div>
     </div>
+    </section>
   );
 }
 

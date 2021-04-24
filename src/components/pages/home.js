@@ -15,17 +15,19 @@ function Home() {
   return (
     <>
       <Header></Header>
-      <ApiCall></ApiCall>
+
       <Cards />
 
       <Aboutus></Aboutus>
+      <Team></Team>
       <Carosello></Carosello>
+      <ApiCall></ApiCall>
 
       <JustLine name="our summer" year="2022" />
       <CardsBigger />
       <JustLine name="our Autumn" year="2023" />
       <Cards />
-      <Team></Team>
+
       <Footer />
     </>
   );

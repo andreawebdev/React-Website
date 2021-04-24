@@ -1,44 +1,14 @@
 
-// import React, { Component } from 'react'
-
-// export default class ApiCall extends Component {
-//     constructor(){
-//      super()
-//      this.state={
-//        character:{}
-
-//      }
-//     }
-
-//     componentDidMount(){
-//         fetch("https://swapi.dev/api/people/1")
-//           .then((response) => response.json())
-//           .then((data) => {
-//             this.setState({
-//               character: data,
-//             });
-//           });
-
-
-//     }
-    
-    
-    
-//     render() {
-//         return (
-//             <div>
-//                 {this.state.character.name}
-//             </div>
-//         )
-//     }
-// }
 import React, { Component } from 'react'
+import "./ApiCall.css";
 
 export default class ApiCall extends Component {
     constructor(){
      super()
      this.state={
-       character:{}
+       character:{
+         
+       }
 
      }
     }
@@ -60,10 +30,19 @@ export default class ApiCall extends Component {
     
     render() {
         return (
-            <div>
+          <section>
+            <div class="joke ">
+              <h1 className=" text-center text-uppercase my-5"> DAILY JOKE</h1>
+              <h3 className="text-center text-uppercase my-3 ">
+                {" "}
                 {this.state.character.setup}
-            
+              </h3>
+              <h3 className=" text-center text-uppercase ">
+                {" "}
+                {this.state.character.punchline}
+              </h3>
             </div>
-        )
+          </section>
+        );
     }
 }

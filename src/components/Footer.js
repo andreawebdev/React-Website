@@ -25,28 +25,28 @@ function Footer() {
             <h6>Contact us</h6>
             <ul className="footer-links">
               <li>
-                <a href="/">Contact</a>
+                <a href="">Contact</a>
               </li>
               <li>
-                <a href="/">
+                <a href="">
                   Destinations
                 </a>
               </li>
               <li>
-                <a href="/">
+                <a href="">
                   Support
                 </a>
               </li>
               <li>
-                <a href="/">
+                <a href="">
                   Sponsorship
                 </a>
               </li>
               <li>
-                <a href="/">Investors</a>
+                <a href="">Investors</a>
               </li>
               <li>
-                <a href="/">Carrers</a>
+                <a href="">Carrers</a>
               </li>
             </ul>
           </div>
@@ -55,21 +55,21 @@ function Footer() {
             <h6>Videos</h6>
             <ul className="footer-links">
               <li>
-                <a href="/">Submit video</a>
+                <a href="">Submit video</a>
               </li>
               <li>
-                <a href="/">Ambassadors</a>
+                <a href="">Ambassadors</a>
               </li>
               <li>
-                <a href="/">
+                <a href="">
                   Agency
                 </a>
               </li>
               <li>
-                <a href="/">Influencers</a>
+                <a href="">Influencers</a>
               </li>
               <li>
-                <a href="/">Privacy policy</a>
+                <a href="">Privacy policy</a>
               </li>
             </ul>
           </div>

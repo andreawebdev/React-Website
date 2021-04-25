@@ -33,7 +33,7 @@ export default class ApiCall extends Component {
           <section>
             <div class="joke ">
               <h1 className=" text-center text-uppercase my-5"> DAILY JOKE</h1>
-              <h3 className="text-center text-uppercase my-3 ">
+              <h3 className="text-center text-uppercase ">
                 {" "}
                 {this.state.character.setup}
               </h3>

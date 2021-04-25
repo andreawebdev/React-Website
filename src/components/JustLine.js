@@ -4,7 +4,7 @@ import "./JustLine.css";
 function JustLine(props) {
   return (
     <div className="line">
-      <h1 className="pt-5 text-white text-uppercase pr-2">
+      <h1 className=" text-center text-white text-uppercase pb-2">
          {/* {props.name} {props.year} SPECIAL PROMO OFFERS */}
          {props.name} {props.year} 
        

@@ -14,9 +14,6 @@ import { useSpring, animated } from "react-spring";
 // export default Cards;
 
 
-
-
-
 function Aboutus() {
   const props = useSpring({
     opacity: 1,
@@ -30,10 +27,10 @@ function Aboutus() {
   return (
     <section id="about">
       <div>
-        <animated.h1 style={props} className="text-align my-4">
+        <animated.h1 style={props} className="text-align py-3">
           About us
         </animated.h1>
-        <div className="container my-5 ">
+        <div className="container py-3 ">
           <div className="row">
             <div className="col-12 col-md-6 col-lg-6 mb-4">
               <img className="about_us" src="images/maldive.jpg" />
@@ -51,7 +48,7 @@ function Aboutus() {
               lacinia sagittis augue vel tempus. Fusce malesuada erat nisi, eget
               gravida dolor porta sed. Duis a lacus porttitor, blandit purus id,
               euismod nunc. Morbi nec nisi et diam facilisis varius.
-              <img className="about_us1 my-4" src="images/tropea.jpg" />
+              {/* <img className="about_us1 my-4" src="images/tropea.jpg" /> */}
             </animated.div>
           </div>
         </div>

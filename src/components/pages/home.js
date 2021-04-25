@@ -1,6 +1,5 @@
 import React from "react";
 import "../../App.css";
-
 import Cards from "../Cards";
 import CardsBigger from "../CardsBigger";
 import Footer from "../Footer";
@@ -16,20 +15,18 @@ function Home() {
   return (
     <>
       <Header></Header>
-
       <Cards name="Top six European destinations" />
 
       <Aboutus></Aboutus>
       <Team></Team>
-      <ApiCall></ApiCall>
-      
 
-      {/* <JustLine name="our summer" year="2022" /> */}
+      {/* <ApiCall></ApiCall> */}
+
       <JustLine name="Worldwide destinations" year="2021" />
       <SummerDestinations></SummerDestinations>
-      {/* <JustLine name="our Autumn" year="2023" /> */}
+      <Carosello></Carosello>
       <JustLine name="Latest news" year="" />
-<Carosello></Carosello>
+      
       <CardsBigger />
       <Footer />
     </>

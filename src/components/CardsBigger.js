@@ -1,11 +1,12 @@
 import React from "react";
+import "./CardsBigger.css";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
 import { LinkContainer } from "react-router-bootstrap";
-import "./CardsBigger.css";
+
 
 class CardsBigger extends React.Component {
   render() {
@@ -28,7 +29,7 @@ class CardsBigger extends React.Component {
                         sit amet, consectetur, adipisci velit..."
                       </p>
                     </Card.Text>
-                    <LinkContainer to="/services">
+                    <LinkContainer to="">
                       <Button variant="outline-warning" className="btn-custom ">
                         Read more
                       </Button>
@@ -47,7 +48,7 @@ class CardsBigger extends React.Component {
                         sit amet, consectetur, adipisci velit..."
                       </p>
                     </Card.Text>
-                    <LinkContainer to="/services">
+                    <LinkContainer to="">
                       <Button variant="outline-warning" className="btn-custom ">
                         Read more
                       </Button>
@@ -64,7 +65,7 @@ class CardsBigger extends React.Component {
                       "Neque porro quisquam est qui dolorem ipsum quia dolor sit
                       amet, consectetur, adipisci velit..."
                     </Card.Text>
-                    <LinkContainer to="/services">
+                    <LinkContainer to="">
                       <Button variant="outline-warning" className="btn-custom ">
                         Read more
                       </Button>
@@ -81,7 +82,7 @@ class CardsBigger extends React.Component {
                       "Neque porro quisquam est qui dolorem ipsum quia dolor sit
                       amet, consectetur, adipisci velit..."
                     </Card.Text>
-                    <LinkContainer to="/services">
+                    <LinkContainer to="">
                       <Button variant="outline-warning" className="btn-custom ">
                         Read more
                       </Button>
@@ -98,7 +99,7 @@ class CardsBigger extends React.Component {
                       "Neque porro quisquam est qui dolorem ipsum quia dolor sit
                       amet, consectetur, adipisci velit..."
                     </Card.Text>
-                    <LinkContainer to="/services">
+                    <LinkContainer to="">
                       <Button variant="outline-warning" className="btn-custom ">
                         Read More
                       </Button>
@@ -115,7 +116,7 @@ class CardsBigger extends React.Component {
                       "Neque porro quisquam est qui dolorem ipsum quia dolor sit
                       amet, consectetur, adipisci velit..."
                     </Card.Text>
-                    <LinkContainer to="/services">
+                    <LinkContainer to="">
                       <Button variant="outline-warning" className="btn-custom ">
                         Read more
                       </Button>

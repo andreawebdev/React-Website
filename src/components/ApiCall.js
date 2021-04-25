@@ -40,16 +40,16 @@ export default class ApiCall extends Component {
   render() {
     return (
       <section>
-        <div class="joke pt-4 pb-4">
+        <div class="joke pt-4 pb-4 ">
           <h1 className=" text-center text-uppercase my-1"> RANDOM JOKE</h1>
-          <h3 className="text-center text-uppercase ">
+          <p className="text-center text-justify text-uppercase ">
             {" "}
             {this.state.character.setup}
-          </h3>
-          <h3 className=" text-center text-uppercase ">
+          </p>
+          <p className=" text-center  text-justify text-uppercase ">
             {" "}
             {this.state.character.punchline}
-          </h3>
+          </p>
         </div>
       </section>
     );

@@ -31,7 +31,7 @@ function SummerDestinations() {
                   <Card.Text>
                     <p>38.00 £ person</p>
                   </Card.Text>
-                  <LinkContainer to="/services">
+                  <LinkContainer to="">
                     <Button variant="outline-warning" className="btn-custom ">
                       Book now
                     </Button>
@@ -47,7 +47,7 @@ function SummerDestinations() {
                   <Card.Text>
                     <p>18.00 £ person</p>
                   </Card.Text>
-                  <LinkContainer to="/services">
+                  <LinkContainer to="">
                     <Button variant="outline-warning" className="btn-custom ">
                       Book now
                     </Button>
@@ -61,7 +61,7 @@ function SummerDestinations() {
                 <Card.Body>
                   <Card.Title>Portorico</Card.Title>
                   <Card.Text>45.00 £ person</Card.Text>
-                  <LinkContainer to="/services">
+                  <LinkContainer to="">
                     <Button variant="outline-warning" className="btn-custom ">
                       Book now
                     </Button>
@@ -75,7 +75,7 @@ function SummerDestinations() {
                 <Card.Body>
                   <Card.Title>Thailandia</Card.Title>
                   <Card.Text>60.00 £ person</Card.Text>
-                  <LinkContainer to="/services">
+                  <LinkContainer to="">
                     <Button variant="outline-warning" className="btn-custom ">
                       Book now
                     </Button>
@@ -89,7 +89,7 @@ function SummerDestinations() {
                 <Card.Body>
                   <Card.Title>Capoverde</Card.Title>
                   <Card.Text>75.00 £ person</Card.Text>
-                  <LinkContainer to="/services">
+                  <LinkContainer to="">
                     <Button variant="outline-warning" className="btn-custom ">
                       Book now
                     </Button>
@@ -103,7 +103,7 @@ function SummerDestinations() {
                 <Card.Body>
                   <Card.Title>Tanzania</Card.Title>
                   <Card.Text>80.00 £ person</Card.Text>
-                  <LinkContainer to="/services">
+                  <LinkContainer to="">
                     <Button variant="outline-warning" className="btn-custom ">
                       Book now
                     </Button>

@@ -1,9 +1,9 @@
 import React from "react";
+import "./Cards.css";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Card from "react-bootstrap/Card";
-import "./Cards.css";
 import Button from "react-bootstrap/Button";
 import { LinkContainer } from "react-router-bootstrap";
 import { useSpring, animated } from "react-spring";
@@ -37,7 +37,7 @@ function Cards (properties) {
                     <Card.Text>
                       <p>18.00 £ person</p>
                     </Card.Text>
-                    <LinkContainer to="/services">
+                    <LinkContainer to="">
                       <Button variant="outline-warning" className="btn-custom ">
                         Book now
                       </Button>
@@ -53,7 +53,7 @@ function Cards (properties) {
                     <Card.Text>
                       <p>45 £ person</p>
                     </Card.Text>
-                    <LinkContainer to="/services">
+                    <LinkContainer to="">
                       <Button variant="outline-warning" className="btn-custom ">
                         Book now
                       </Button>
@@ -67,7 +67,7 @@ function Cards (properties) {
                   <Card.Body>
                     <Card.Title>Paris</Card.Title>
                     <Card.Text>34.00 £ person</Card.Text>
-                    <LinkContainer to="/services">
+                    <LinkContainer to="">
                       <Button variant="outline-warning" className="btn-custom ">
                         Book now
                       </Button>
@@ -81,7 +81,7 @@ function Cards (properties) {
                   <Card.Body>
                     <Card.Title>Barcellona</Card.Title>
                     <Card.Text>14.00 £ person</Card.Text>
-                    <LinkContainer to="/services">
+                    <LinkContainer to="">
                       <Button variant="outline-warning" className="btn-custom ">
                         Book now
                       </Button>
@@ -95,7 +95,7 @@ function Cards (properties) {
                   <Card.Body>
                     <Card.Title>Dublin</Card.Title>
                     <Card.Text>19.00 £ person</Card.Text>
-                    <LinkContainer to="/services">
+                    <LinkContainer to="">
                       <Button variant="outline-warning" className="btn-custom ">
                         Book now
                       </Button>
@@ -109,7 +109,7 @@ function Cards (properties) {
                   <Card.Body>
                     <Card.Title>Praga</Card.Title>
                     <Card.Text>25.00 £ person</Card.Text>
-                    <LinkContainer to="/services">
+                    <LinkContainer to="">
                       <Button variant="outline-warning" className="btn-custom ">
                         Book now
                       </Button>

@@ -1,6 +1,6 @@
 import React from "react";
-
 import Carousel from "react-bootstrap/Carousel";
+
 function Carosello() {
   return (
     <div>
@@ -24,11 +24,12 @@ function Carosello() {
           />
 
           <Carousel.Caption>
-            <h3>VENICE, ITALY</h3>
+            <h3 className="text-center text-white ">VENICE,ITALY</h3>
             <p></p>
           </Carousel.Caption>
         </Carousel.Item>
-        <Carousel.Item>
+        
+        {/* <Carousel.Item>
           <img
             className="d-block w-100"
             src="images/cuba4.jpg"
@@ -37,11 +38,10 @@ function Carosello() {
 
           <Carousel.Caption>
             <h3>CUBA</h3>
-            <p>
-              
-            </p>
+            <p></p>
           </Carousel.Caption>
-        </Carousel.Item>
+        </Carousel.Item> */}
+      
       </Carousel>
     </div>
   );

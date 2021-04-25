@@ -25,7 +25,7 @@ function Home() {
       <ApiCall></ApiCall>
 
       {/* <JustLine name="our summer" year="2022" /> */}
-      <JustLine name="Worldwide summer destinations" year="2022" />
+      <JustLine name="Worldwide destinations" year="2021" />
       <SummerDestinations></SummerDestinations>
       {/* <JustLine name="our Autumn" year="2023" /> */}
       <JustLine name="Latest news" year="" />

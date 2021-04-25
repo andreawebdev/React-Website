@@ -47,10 +47,7 @@ export default class Header extends Component {
                     <h1 className="text-left" style={mystyle}>
                       destinations!
                     </h1>
-                    <p className="text-left text-white" style={mystyle2}>
-                      We handpicked hundreds of the most spectacular summer
-                      destinations all over the globe.
-                    </p>
+                    
                     <p className="text-left text-white" style={mystyle2}>
                       Relax your body and soul in the most remote corners of the
                       world.

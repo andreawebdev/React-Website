@@ -31,7 +31,7 @@ function Carosello() {
         <Carousel.Item>
           <img
             className="d-block w-100"
-            src="images/cuban.jpg"
+            src="images/ls.jpg"
             alt="Third slide"
           />
 

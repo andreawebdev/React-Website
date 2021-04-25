@@ -24,7 +24,7 @@ function SummerDestinations() {
         <Container>
           <Row>
             <Col lg={4} md={6}>
-              <Card className="text-center my-4 " style={{ width: "18rem" }}>
+              <Card className="text-center my-2 " style={{ width: "18rem" }}>
                 <Card.Img variant="top rounded " src="images/miami.jpg" />
                 <Card.Body>
                   <Card.Title>Miami</Card.Title>
@@ -40,7 +40,7 @@ function SummerDestinations() {
               </Card>
             </Col>
             <Col lg={4} md={6}>
-              <Card className="text-center my-4" style={{ width: "18rem" }}>
+              <Card className="text-center my-2" style={{ width: "18rem" }}>
                 <Card.Img variant="top" src="images/cubabis.jpg" />
                 <Card.Body>
                   <Card.Title>Cuba</Card.Title>
@@ -56,7 +56,7 @@ function SummerDestinations() {
               </Card>
             </Col>
             <Col lg={4} md={6}>
-              <Card className="text-center my-4" style={{ width: "18rem" }}>
+              <Card className="text-center my-2" style={{ width: "18rem" }}>
                 <Card.Img variant="top" src="images/portorico.jpg" />
                 <Card.Body>
                   <Card.Title>Portorico</Card.Title>
@@ -70,7 +70,7 @@ function SummerDestinations() {
               </Card>
             </Col>
             <Col lg={4} md={6}>
-              <Card className="text-center my-4" style={{ width: "18rem" }}>
+              <Card className="text-center my-2" style={{ width: "18rem" }}>
                 <Card.Img variant="top" src="images/thai.jpg" />
                 <Card.Body>
                   <Card.Title>Thailandia</Card.Title>
@@ -84,7 +84,7 @@ function SummerDestinations() {
               </Card>
             </Col>
             <Col lg={4} md={6}>
-              <Card className="text-center my-4" style={{ width: "18rem" }}>
+              <Card className="text-center my-2" style={{ width: "18rem" }}>
                 <Card.Img variant="top" src="images/capoverde.jpg" />
                 <Card.Body>
                   <Card.Title>Capoverde</Card.Title>
@@ -98,7 +98,7 @@ function SummerDestinations() {
               </Card>
             </Col>
             <Col lg={4} md={6}>
-              <Card className="text-center my-4" style={{ width: "18rem" }}>
+              <Card className="text-center my-2" style={{ width: "18rem" }}>
                 <Card.Img variant="top" src="images/tanzania.jpg" />
                 <Card.Body>
                   <Card.Title>Tanzania</Card.Title>

@@ -10,7 +10,7 @@ export default class Header extends Component {
         let time;
 
         const mystyle = {
-          fontSize: 35,
+          fontSize: 40,
         };
         const mystyle2 = {
           fontSize: 20,

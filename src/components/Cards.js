@@ -30,7 +30,7 @@ function Cards (properties) {
           <Container>
             <Row>
               <Col lg={4} md={6}>
-                <Card className="text-center my-2" style={{ width: "18rem" }}>
+                <Card className="text-center " style={{ width: "18rem" }}>
                   <Card.Img variant="top rounded " src="images/roma.jpg" />
                   <Card.Body>
                     <Card.Title>Rome</Card.Title>

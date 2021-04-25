@@ -30,7 +30,7 @@ class NavBar extends React.Component {
               <Nav.Link href="#about">About</Nav.Link>
               <Nav.Link href="#destinations">Destinations</Nav.Link>
 
-              <Nav.Link href="#promo">Promo offers</Nav.Link>
+              {/* <Nav.Link href="#promo">Promo offers</Nav.Link> */}
               <Nav.Link href="#news">News</Nav.Link>
               <LinkContainer disabled to="/services">
                 <Nav.Link>Services</Nav.Link>

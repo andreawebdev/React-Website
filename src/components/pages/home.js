@@ -10,24 +10,27 @@ import Aboutus from "../Aboutus";
 import JustLine from "../JustLine";
 import Header from "../Header";
 import  ApiCall from "../ApiCall";
+import  SummerDestinations from "../SummerDestinations";
 
 function Home() {
   return (
     <>
       <Header></Header>
 
-      <Cards />
+      <Cards name="Top six European destinations" />
 
       <Aboutus></Aboutus>
       <Team></Team>
       <Carosello></Carosello>
       <ApiCall></ApiCall>
 
-      <JustLine name="our summer" year="2022" />
-      <CardsBigger />
-      <JustLine name="our Autumn" year="2023" />
-      <Cards />
+      {/* <JustLine name="our summer" year="2022" /> */}
+      <JustLine name="Worldwide summer destinations" year="2022" />
+      <SummerDestinations></SummerDestinations>
+      {/* <JustLine name="our Autumn" year="2023" /> */}
+      <JustLine name="Latest news" year="" />
 
+      <CardsBigger />
       <Footer />
     </>
   );

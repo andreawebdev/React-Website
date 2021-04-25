@@ -13,22 +13,18 @@ import { useSpring, animated } from "react-spring";
 
 
 
-function Cards () {
+function Cards (properties) {
   
      const props = useSpring({
        opacity: 1,
        from: { opacity: 0,},
-       config:{delay:0, duration:2000},
+       config:{delay:0, duration:1000},
      });
     
     return (
       <section id="destinations">
         <animated.div style={props} className="cards">
-          {/* <h1 className="text-center text-dark py-5 pb-5">
-          Check out our wonderful destinations!
-        </h1> */}
-          <br></br>
-          <br></br>
+          <h1 className="text-center text-dark py-5 ">{properties.name}</h1>
           <br></br>
 
           <Container>
@@ -39,10 +35,7 @@ function Cards () {
                   <Card.Body>
                     <Card.Title>Rome</Card.Title>
                     <Card.Text>
-                      <p>
-                        "Neque porro quisquam est qui dolorem ipsum quia dolor
-                        sit amet, consectetur, adipisci velit..."
-                      </p>
+                      <p>18.00 £ person</p>
                     </Card.Text>
                     <LinkContainer to="/services">
                       <Button variant="outline-warning" className="btn-custom ">
@@ -58,10 +51,7 @@ function Cards () {
                   <Card.Body>
                     <Card.Title>London</Card.Title>
                     <Card.Text>
-                      <p>
-                        "Neque porro quisquam est qui dolorem ipsum quia dolor
-                        sit amet, consectetur, adipisci velit..."
-                      </p>
+                      <p>45 £ person</p>
                     </Card.Text>
                     <LinkContainer to="/services">
                       <Button variant="outline-warning" className="btn-custom ">
@@ -76,10 +66,7 @@ function Cards () {
                   <Card.Img variant="top" src="images/paris.jpg" />
                   <Card.Body>
                     <Card.Title>Paris</Card.Title>
-                    <Card.Text>
-                      "Neque porro quisquam est qui dolorem ipsum quia dolor sit
-                      amet, consectetur, adipisci velit..."
-                    </Card.Text>
+                    <Card.Text>34.00 £ person</Card.Text>
                     <LinkContainer to="/services">
                       <Button variant="outline-warning" className="btn-custom ">
                         Book now
@@ -93,10 +80,7 @@ function Cards () {
                   <Card.Img variant="top" src="images/barcellona.jpg" />
                   <Card.Body>
                     <Card.Title>Barcellona</Card.Title>
-                    <Card.Text>
-                      "Neque porro quisquam est qui dolorem ipsum quia dolor sit
-                      amet, consectetur, adipisci velit..."
-                    </Card.Text>
+                    <Card.Text>14.00 £ person</Card.Text>
                     <LinkContainer to="/services">
                       <Button variant="outline-warning" className="btn-custom ">
                         Book now
@@ -107,13 +91,10 @@ function Cards () {
               </Col>
               <Col lg={4} md={6}>
                 <Card className="text-center my-4" style={{ width: "18rem" }}>
-                  <Card.Img variant="top" src="images/new.jpg" />
+                  <Card.Img variant="top" src="images/dublin.jpg" />
                   <Card.Body>
-                    <Card.Title>New york</Card.Title>
-                    <Card.Text>
-                      "Neque porro quisquam est qui dolorem ipsum quia dolor sit
-                      amet, consectetur, adipisci velit..."
-                    </Card.Text>
+                    <Card.Title>Dublin</Card.Title>
+                    <Card.Text>19.00 £ person</Card.Text>
                     <LinkContainer to="/services">
                       <Button variant="outline-warning" className="btn-custom ">
                         Book now
@@ -124,13 +105,10 @@ function Cards () {
               </Col>
               <Col lg={4} md={6}>
                 <Card className="text-center my-4" style={{ width: "18rem" }}>
-                  <Card.Img variant="top" src="images/sidney1.jpg" />
+                  <Card.Img variant="top" src="images/praga.jpg" />
                   <Card.Body>
-                    <Card.Title>Sidney</Card.Title>
-                    <Card.Text>
-                      "Neque porro quisquam est qui dolorem ipsum quia dolor sit
-                      amet, consectetur, adipisci velit..."
-                    </Card.Text>
+                    <Card.Title>Praga</Card.Title>
+                    <Card.Text>25.00 £ person</Card.Text>
                     <LinkContainer to="/services">
                       <Button variant="outline-warning" className="btn-custom ">
                         Book now

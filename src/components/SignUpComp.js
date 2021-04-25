@@ -76,6 +76,7 @@ class SignUp extends Component {
               value={this.state.fullname}
               className="form-control form-group"
               placeholder="Full name"
+              
             />
             <input
               type="text"

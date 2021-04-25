@@ -13,7 +13,7 @@ function Carosello() {
           />
           <Carousel.Caption>
             <h3 className="text-center text-white ">TENERIFE, SPAIN</h3>
-            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+            <p></p>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
@@ -25,20 +25,20 @@ function Carosello() {
 
           <Carousel.Caption>
             <h3>VENICE, ITALY</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <p></p>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
           <img
             className="d-block w-100"
-            src="images/cuba.jpg"
+            src="images/cuban.jpg"
             alt="Third slide"
           />
 
           <Carousel.Caption>
             <h3>CUBA</h3>
             <p>
-              Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+              
             </p>
           </Carousel.Caption>
         </Carousel.Item>

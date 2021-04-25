@@ -1,6 +1,6 @@
 .site-footer
 {
-  background-color: #242424;
+  /* background-color: #242424; */
   padding:45px 0 20px;
   font-size:15px;
   line-height:24px;
@@ -8,6 +8,9 @@
   /* clip-path: polygon(19% 20%, 100% 0, 100% 100%, 16% 100%, 0 100%, 0% 50%); */
   /* clip-path: polygon(0 1%, 100% 0, 100% 61%, 11% 96%, 0 100%, 0% 50%); */
   /* height:15cm; */
+  background: #000046;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to top, #1CB5E0, #000046);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to top, #1CB5E0, #000046); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   
 }
 .site-footer hr

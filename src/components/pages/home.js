@@ -22,14 +22,14 @@ function Home() {
       <Aboutus></Aboutus>
       <Team></Team>
       <ApiCall></ApiCall>
-      <Carosello></Carosello>
+      
 
       {/* <JustLine name="our summer" year="2022" /> */}
       <JustLine name="Worldwide destinations" year="2021" />
       <SummerDestinations></SummerDestinations>
       {/* <JustLine name="our Autumn" year="2023" /> */}
       <JustLine name="Latest news" year="" />
-
+<Carosello></Carosello>
       <CardsBigger />
       <Footer />
     </>

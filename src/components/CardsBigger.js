@@ -127,7 +127,7 @@ class CardsBigger extends React.Component {
           </Container>
         </div>
       </section>
-    );
+    ); 
   }
 }
 

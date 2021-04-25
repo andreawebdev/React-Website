@@ -21,8 +21,8 @@ function Home() {
 
       <Aboutus></Aboutus>
       <Team></Team>
-      <Carosello></Carosello>
       <ApiCall></ApiCall>
+      <Carosello></Carosello>
 
       {/* <JustLine name="our summer" year="2022" /> */}
       <JustLine name="Worldwide destinations" year="2021" />

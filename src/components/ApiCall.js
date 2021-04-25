@@ -31,8 +31,8 @@ export default class ApiCall extends Component {
     render() {
         return (
           <section>
-            <div class="joke ">
-              <h1 className=" text-center text-uppercase my-2"> DAILY JOKE</h1>
+            <div class="joke pt-4 pb-4">
+              <h1 className=" text-center text-uppercase my-1"> DAILY JOKE</h1>
               <h3 className="text-center text-uppercase ">
                 {" "}
                 {this.state.character.setup}

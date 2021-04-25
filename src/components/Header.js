@@ -10,10 +10,10 @@ export default class Header extends Component {
         let time;
 
         const mystyle = {
-          fontSize: 30,
+          fontSize: 35,
         };
         const mystyle2 = {
-          fontSize: 30,
+          fontSize: 20,
         };
 
         if (hours < 12) {

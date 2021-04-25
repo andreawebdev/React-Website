@@ -30,7 +30,7 @@ function Cards (properties) {
           <Container>
             <Row>
               <Col lg={4} md={6}>
-                <Card className="text-center my-4 " style={{ width: "18rem" }}>
+                <Card className="text-center my-1" style={{ width: "18rem" }}>
                   <Card.Img variant="top rounded " src="images/roma.jpg" />
                   <Card.Body>
                     <Card.Title>Rome</Card.Title>
@@ -46,7 +46,7 @@ function Cards (properties) {
                 </Card>
               </Col>
               <Col lg={4} md={6}>
-                <Card className="text-center my-4" style={{ width: "18rem" }}>
+                <Card className="text-center my-1" style={{ width: "18rem" }}>
                   <Card.Img variant="top" src="images/london.jpg" />
                   <Card.Body>
                     <Card.Title>London</Card.Title>
@@ -62,7 +62,7 @@ function Cards (properties) {
                 </Card>
               </Col>
               <Col lg={4} md={6}>
-                <Card className="text-center my-4" style={{ width: "18rem" }}>
+                <Card className="text-center my-1" style={{ width: "18rem" }}>
                   <Card.Img variant="top" src="images/paris.jpg" />
                   <Card.Body>
                     <Card.Title>Paris</Card.Title>
@@ -76,7 +76,7 @@ function Cards (properties) {
                 </Card>
               </Col>
               <Col lg={4} md={6}>
-                <Card className="text-center my-4" style={{ width: "18rem" }}>
+                <Card className="text-center my-1" style={{ width: "18rem" }}>
                   <Card.Img variant="top" src="images/barcellona.jpg" />
                   <Card.Body>
                     <Card.Title>Barcellona</Card.Title>
@@ -90,7 +90,7 @@ function Cards (properties) {
                 </Card>
               </Col>
               <Col lg={4} md={6}>
-                <Card className="text-center my-4" style={{ width: "18rem" }}>
+                <Card className="text-center my-1" style={{ width: "18rem" }}>
                   <Card.Img variant="top" src="images/dublin.jpg" />
                   <Card.Body>
                     <Card.Title>Dublin</Card.Title>
@@ -104,7 +104,7 @@ function Cards (properties) {
                 </Card>
               </Col>
               <Col lg={4} md={6}>
-                <Card className="text-center my-4" style={{ width: "18rem" }}>
+                <Card className="text-center my-1" style={{ width: "18rem" }}>
                   <Card.Img variant="top" src="images/praga.jpg" />
                   <Card.Body>
                     <Card.Title>Praga</Card.Title>

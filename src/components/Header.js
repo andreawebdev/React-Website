@@ -10,10 +10,10 @@ export default class Header extends Component {
         let time;
 
         const mystyle = {
-          fontSize: 60,
+          fontSize: 30,
         };
         const mystyle2 = {
-          fontSize: 20,
+          fontSize: 30,
         };
 
         if (hours < 12) {
@@ -38,15 +38,15 @@ export default class Header extends Component {
               <div className="container h-100">
                 <div className="row h-100 align-items-center">
                   <div className="col-12 ">
-                    <h2 className="text-left" style={mystyle}>
+                    <h1 className="text-left" style={mystyle}>
                       Good {time}!
-                    </h2>
-                    <h2 className="text-left" style={mystyle}>
+                    </h1>
+                    <h1 className="text-left" style={mystyle}>
                       Check out our wonderful
-                    </h2>
-                    <h2 className="text-left" style={mystyle}>
+                    </h1>
+                    <h1 className="text-left" style={mystyle}>
                       destinations!
-                    </h2>
+                    </h1>
                     
                     <p className="text-left text-white" style={mystyle2}>
                       Relax your body and soul in the most remote corners of the

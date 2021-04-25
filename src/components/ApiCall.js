@@ -32,7 +32,7 @@ export default class ApiCall extends Component {
         return (
           <section>
             <div class="joke ">
-              <h1 className=" text-center text-uppercase my-5"> DAILY JOKE</h1>
+              <h1 className=" text-center text-uppercase my-2"> DAILY JOKE</h1>
               <h3 className="text-center text-uppercase ">
                 {" "}
                 {this.state.character.setup}

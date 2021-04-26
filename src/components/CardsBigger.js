@@ -19,7 +19,7 @@ class CardsBigger extends React.Component {
           <Container>
             <Row>
               <Col lg={4} md={6}>
-                <Card className="text-center" style={{ width: "18rem" }}>
+                <Card className="text-center  ml-3" style={{ width: "18rem" }}>
                   <Card.Img variant="top" src="images/maldive.jpg" />
                   <Card.Body>
                     <Card.Title>Thailand Travel Tips</Card.Title>
@@ -38,7 +38,10 @@ class CardsBigger extends React.Component {
                 </Card>
               </Col>
               <Col lg={4} md={6}>
-                <Card className="text-center my-2" style={{ width: "18rem" }}>
+                <Card
+                  className="text-center my-2  ml-3"
+                  style={{ width: "18rem" }}
+                >
                   <Card.Img variant="top" src="images/miami.jpg" />
                   <Card.Body>
                     <Card.Title>Tenerife Travel Tips</Card.Title>
@@ -57,7 +60,10 @@ class CardsBigger extends React.Component {
                 </Card>
               </Col>
               <Col lg={4} md={6}>
-                <Card className="text-center my-2" style={{ width: "18rem" }}>
+                <Card
+                  className="text-center my-2  ml-3 "
+                  style={{ width: "18rem" }}
+                >
                   <Card.Img variant="top" src="images/portorico.jpg" />
                   <Card.Body>
                     <Card.Title> Experiencing The Maldives</Card.Title>
@@ -74,7 +80,10 @@ class CardsBigger extends React.Component {
                 </Card>
               </Col>
               <Col lg={4} md={6}>
-                <Card className="text-center my-2" style={{ width: "18rem" }}>
+                <Card
+                  className="text-center my-2  ml-3"
+                  style={{ width: "18rem" }}
+                >
                   <Card.Img variant="top" src="images/paris.jpg" />
                   <Card.Body>
                     <Card.Title>Thailand Travel Tips</Card.Title>
@@ -91,7 +100,10 @@ class CardsBigger extends React.Component {
                 </Card>
               </Col>
               <Col lg={4} md={6}>
-                <Card className="text-center my-2" style={{ width: "18rem" }}>
+                <Card
+                  className="text-center my-2  ml-3"
+                  style={{ width: "18rem" }}
+                >
                   <Card.Img variant="top" src="images/roma.jpg" />
                   <Card.Body>
                     <Card.Title> Rome Colosseum</Card.Title>
@@ -108,7 +120,10 @@ class CardsBigger extends React.Component {
                 </Card>
               </Col>
               <Col lg={4} md={6}>
-                <Card className="text-center my-2" style={{ width: "18rem" }}>
+                <Card
+                  className="text-center my-2  ml-3"
+                  style={{ width: "18rem" }}
+                >
                   <Card.Img variant="top" src="images/portorico.jpg" />
                   <Card.Body>
                     <Card.Title> Experiencing Cuba</Card.Title>

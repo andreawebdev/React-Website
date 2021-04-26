@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import "./ApiCall.css";
+// import "./ApiCall.css";
 
 export default class ApiCall extends Component {
   constructor() {

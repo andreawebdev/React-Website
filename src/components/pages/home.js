@@ -9,7 +9,7 @@ import Carosello from "../Carosello";
 import Aboutus from "../Aboutus";
 import JustLine from "../JustLine";
 import Header from "../Header";
-import  ApiCall from "../ApiCall";
+// import  ApiCall from "../ApiCall";
 import  SummerDestinations from "../SummerDestinations";
 
 function Home() {

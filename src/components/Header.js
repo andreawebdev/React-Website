@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import Carousel from "react-bootstrap/Carousel";
+
 import "./Header.css";
 
 export default class Header extends Component {

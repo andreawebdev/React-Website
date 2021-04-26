@@ -17,7 +17,7 @@ class NavBar extends React.Component {
         <Navbar className="nvbar_my" variant="dark" expand="lg" fixed="top">
           <Navbar.Brand>
             <p>
-              <i class="fab fa-affiliatetheme fa-1x"></i>
+              <i className="fab fa-affiliatetheme fa-1x"></i>
             </p>
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />

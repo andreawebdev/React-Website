@@ -72,7 +72,7 @@ class SignUp extends Component {
 
           <div className="form-div myform">
             <form onSubmit={this.onSubmit}>
-              <span class="label label-default text-left">Surname</span>
+              {/* <span class="label label-default text-left">Fmull</span> */}
               <input
                 type="text"
                 onChange={this.changefullname}
@@ -80,7 +80,7 @@ class SignUp extends Component {
                 className="form-control form-group"
                 placeholder="Fullname"
               />
-              <span class="label label-default text-left">Fullname</span>
+              {/* <span class="label label-default text-left">Fullname</span> */}
               <input
                 type="text"
                 onChange={this.changeusername}
@@ -88,7 +88,7 @@ class SignUp extends Component {
                 className="form-control form-group"
                 placeholder="Username"
               />
-              <span class="label label-default text-left">Email</span>
+              {/* <span class="label label-default text-left">Email</span> */}
               <input
                 type="text"
                 onChange={this.changeemail}
@@ -96,7 +96,7 @@ class SignUp extends Component {
                 className="form-control form-group"
                 placeholder="Email"
               />
-              <span class="label label-default text-left">Password</span>
+              {/* <span class="label label-default text-left">Password</span> */}
               <input
                 type="password"
                 onChange={this.changepassword}

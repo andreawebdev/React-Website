@@ -116,7 +116,7 @@ function Cards (properties) {
               </Col>
               <Col lg={4} md={6}>
                 <Card
-                  className="text-center    ml-3 my-2"
+                  className="text-center    ml-3 my-2 mb-3"
                   style={{ width: "18rem" }}
                 >
                   <Card.Img variant="top" src="images/praga.jpg" />

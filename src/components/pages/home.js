@@ -5,6 +5,7 @@ import CardsBigger from "../CardsBigger";
 import Footer from "../Footer";
 
 import Team from "../Team";
+import Carosello from "../Carosello";
 import Aboutus from "../Aboutus";
 import JustLine from "../JustLine";
 import Header from "../Header";
@@ -16,7 +17,7 @@ function Home() {
     <>
       <Header></Header>
       <Cards name="Top six European destinations" />
-
+<Carosello></Carosello>
       <Aboutus></Aboutus>
       <Team></Team>
 

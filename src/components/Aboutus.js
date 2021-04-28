@@ -25,7 +25,7 @@ function Aboutus() {
   });
   
   return (
-    <section id="about">
+    <section id="about"  >
       <div>
         <animated.h1 style={props} className="text-align py-3">
           About us

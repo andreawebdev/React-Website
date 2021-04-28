@@ -33,7 +33,7 @@ function Aboutus() {
         <div className="container py-3 ">
           <div className="row">
             <div className="col-12 col-md-6 col-lg-6 mb-4">
-              <img className="about_us" src="images/maldive.jpg" alt="images/maldive.jpg"/>
+              <img className="about_us" src="images/trav1.jpg" alt="images/trav.jpg"/>
             </div>
             <animated.div
               style={props}

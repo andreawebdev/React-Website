@@ -96,7 +96,7 @@ class SignUp extends Component {
                 className="form-control form-group"
                 placeholder="Email"
               />
-              {/* <span class="label label-default text-left">Password</span> */}
+              {/* <span class="label label-default text-left">Password</spa */}
               <input
                 type="password"
                 onChange={this.changepassword}

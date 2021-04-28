@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-
 import "./Header.css";
 
 export default class Header extends Component {
@@ -32,14 +31,14 @@ export default class Header extends Component {
 
     return (
       <header
-        class="masthead "
+        className="masthead "
         style={{
           backgroundImage: `url("images/tenerife.jpg")`,
         }}
       >
-        <div class="container h-100">
-          <div class="row h-100 align-items-center">
-            <div class="col-12 text-center ">
+        <div className="container h-100">
+          <div className="row h-100 align-items-center">
+            <div className="col-12 text-center ">
               <h1 className="text-left " style={mystyle}>
                 Good {time}!
               </h1>

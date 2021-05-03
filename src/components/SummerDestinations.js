@@ -1,5 +1,6 @@
 import React from "react";
 import Container from "react-bootstrap/Container";
+import Image from "react-bootstrap/Image";
 import "./Summer.css";
 
 import { LinkContainer } from "react-router-bootstrap";
@@ -30,10 +31,15 @@ function SummerDestinations() {
               ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum
               dolor sit amet, consectetur adipiscing elit.
             </p>
-            <button className="btn btn-custom my-5">Plan a group tour</button>
+            <button className="btn btn-custom ">Plan a group tour</button>
           </div>
           <div className="col-md-5">
-            <img className="responsive" src="images/ss.jpeg"></img>
+            {/* <img
+              className="responsive"
+              src="images/ss.jpeg"
+              roundedCircle
+            ></img> */}
+            <Image className="responsive" src="images/ss.jpeg" roundedCircle />
           </div>
         </div>
       </div>

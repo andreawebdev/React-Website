@@ -27,17 +27,19 @@ function SummerDestinations() {
               the experts at Liberty Group Travel. They’ll plan a custom group
               vacation package complete with elevated services, exclusive rates,
               and unique amenities for a celebration you and your guests will
-              never forget.
+              never forget. Lorem ipsum dolor sit amet, consectetur adipiscing
+              elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem
+              ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum
+              dolor sit amet, consectetur adipiscing elit.
             </p>
             <button className="btn btn-custom my-5">Plan a group tour</button>
-            
           </div>
           <div className="col-md-5">
-            <img src="images/g1.jpg"></img>
+            <img src="images/ss.jpg"></img>
           </div>
         </div>
       </div>
-
     </section>
   );
 }

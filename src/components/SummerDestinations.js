@@ -18,7 +18,7 @@ function SummerDestinations() {
       <animated.div style={props} className="cards"></animated.div>
       <div className="container my-4 mb-4 text-center">
         <div className="row">
-          <div className="col-md-7">
+          <div className="col-md-6">
             <p className="py-5 text-justify">
               From destination weddings to corporate retreats to family
               reunions, turn your special occasion into a memorable getaway with
@@ -33,7 +33,7 @@ function SummerDestinations() {
             </p>
             <button className="btn btn-custom ">Plan a group tour</button>
           </div>
-          <div className="col-md-5">
+          <div className="col-md-6 my-3">
             {/* <img
               className="responsive"
               src="images/ss.jpeg"

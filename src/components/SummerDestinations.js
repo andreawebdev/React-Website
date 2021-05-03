@@ -1,10 +1,10 @@
 import React from "react";
 import Container from "react-bootstrap/Container";
-import Row from "react-bootstrap/Row";
-import Col from "react-bootstrap/Col";
-import Card from "react-bootstrap/Card";
+// import Row from "react-bootstrap/Row";
+// import Col from "react-bootstrap/Col";
+// import Card from "react-bootstrap/Card";
 // import "./Cards.css";
-import Button from "react-bootstrap/Button";
+// import Button from "react-bootstrap/Button";
 import { LinkContainer } from "react-router-bootstrap";
 import { useSpring, animated } from "react-spring";
 
@@ -17,121 +17,27 @@ function SummerDestinations() {
 
   return (
     <section id="destinations">
-      <animated.div style={props} className="cards">
-        <br></br>
-        <br></br>
+      <animated.div style={props} className="cards"></animated.div>
+      <div className="container my-4 mb-4 text-center">
+        <div className="row">
+          <div className="col-md-7">
+            <p className="py-5 text-justify">
+              From destination weddings to corporate retreats to family
+              reunions, turn your special occasion into a memorable getaway with
+              the experts at Liberty Group Travel. They’ll plan a custom group
+              vacation package complete with elevated services, exclusive rates,
+              and unique amenities for a celebration you and your guests will
+              never forget.
+            </p>
+            <button className="btn btn-custom">Plan a group tour</button>
+            
+          </div>
+          <div className="col-md-5">
+            <img src="images/g1.jpg"></img>
+          </div>
+        </div>
+      </div>
 
-        <Container>
-          <Row>
-            <Col lg={4} md={6}>
-              <Card
-                className="text-center my-2  ml-3"
-                style={{ width: "18rem" }}
-              >
-                <Card.Img variant="top rounded " src="images/miami.jpg" />
-                <Card.Body>
-                  <Card.Title>Miami</Card.Title>
-                  <Card.Text>
-                    <p>38.00 £ person</p>
-                  </Card.Text>
-                  <LinkContainer to="">
-                    <Button variant="outline-warning" className="btn-custom ">
-                      Book now
-                    </Button>
-                  </LinkContainer>
-                </Card.Body>
-              </Card>
-            </Col>
-            <Col lg={4} md={6}>
-              <Card
-                className="text-center my-2  ml-3"
-                style={{ width: "18rem" }}
-              >
-                <Card.Img variant="top" src="images/cubabis.jpg" />
-                <Card.Body>
-                  <Card.Title>Cuba</Card.Title>
-                  <Card.Text>
-                    <p>18.00 £ person</p>
-                  </Card.Text>
-                  <LinkContainer to="">
-                    <Button variant="outline-warning" className="btn-custom ">
-                      Book now
-                    </Button>
-                  </LinkContainer>
-                </Card.Body>
-              </Card>
-            </Col>
-            <Col lg={4} md={6}>
-              <Card
-                className="text-center my-2  ml-3"
-                style={{ width: "18rem" }}
-              >
-                <Card.Img variant="top" src="images/portorico.jpg" />
-                <Card.Body>
-                  <Card.Title>Portorico</Card.Title>
-                  <Card.Text>45.00 £ person</Card.Text>
-                  <LinkContainer to="">
-                    <Button variant="outline-warning" className="btn-custom ">
-                      Book now
-                    </Button>
-                  </LinkContainer>
-                </Card.Body>
-              </Card>
-            </Col>
-            <Col lg={4} md={6}>
-              <Card
-                className="text-center my-2  ml-3"
-                style={{ width: "18rem" }}
-              >
-                <Card.Img variant="top" src="images/thai.jpg" />
-                <Card.Body>
-                  <Card.Title>Thailandia</Card.Title>
-                  <Card.Text>60.00 £ person</Card.Text>
-                  <LinkContainer to="">
-                    <Button variant="outline-warning" className="btn-custom ">
-                      Book now
-                    </Button>
-                  </LinkContainer>
-                </Card.Body>
-              </Card>
-            </Col>
-            <Col lg={4} md={6}>
-              <Card
-                className="text-center my-2  ml-3"
-                style={{ width: "18rem" }}
-              >
-                <Card.Img variant="top" src="images/capoverde.jpg" />
-                <Card.Body>
-                  <Card.Title>Capoverde</Card.Title>
-                  <Card.Text>75.00 £ person</Card.Text>
-                  <LinkContainer to="">
-                    <Button variant="outline-warning" className="btn-custom ">
-                      Book now
-                    </Button>
-                  </LinkContainer>
-                </Card.Body>
-              </Card>
-            </Col>
-            <Col lg={4} md={6}>
-              <Card
-                className="text-center my-2  ml-3"
-                style={{ width: "18rem" }}
-              >
-                <Card.Img variant="top" src="images/tanzania.jpg" />
-                <Card.Body>
-                  <Card.Title>Tanzania</Card.Title>
-                  <Card.Text>80.00 £ person</Card.Text>
-                  <LinkContainer to="">
-                    <Button variant="outline-warning" className="btn-custom ">
-                      Book now
-                    </Button>
-                  </LinkContainer>
-                </Card.Body>
-              </Card>
-            </Col>
-          </Row>
-        </Container>
-      </animated.div>
     </section>
   );
 }

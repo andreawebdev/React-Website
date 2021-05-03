@@ -17,17 +17,17 @@ function Home() {
     <>
       <Header></Header>
       <Cards name="Top six European destinations" />
-<Carosello></Carosello>
+      <Carosello></Carosello>
       <Aboutus></Aboutus>
       <Team></Team>
 
       {/* <ApiCall></ApiCall> */}
 
-      <JustLine name="Worldwide destinations" year="2021" />
+      <JustLine name="Getaways with the Entire Group" year="2021" />
       <SummerDestinations></SummerDestinations>
-      
+
       <JustLine name="Latest news" year="" />
-      
+
       <CardsBigger />
       <Footer />
     </>

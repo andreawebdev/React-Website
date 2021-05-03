@@ -36,7 +36,7 @@ function SummerDestinations() {
             <button className="btn btn-custom my-5">Plan a group tour</button>
           </div>
           <div className="col-md-5">
-            <img src="images/ss.jpg"></img>
+            <img src="images/ss.jpeg"></img>
           </div>
         </div>
       </div>

@@ -29,7 +29,7 @@ function SummerDestinations() {
               and unique amenities for a celebration you and your guests will
               never forget.
             </p>
-            <button className="btn btn-custom">Plan a group tour</button>
+            <button className="btn btn-custom my-5">Plan a group tour</button>
             
           </div>
           <div className="col-md-5">

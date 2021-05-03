@@ -12,3 +12,13 @@ background-color: rgb(241, 163, 19);
 color: aliceblue;
 border-radius: 16px;
 }
+
+/* @media only screen and (max-width: 767px) {
+  Card {
+        
+        align-items: center !important;
+    }
+}  */
+
+
+

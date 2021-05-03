@@ -1,10 +1,7 @@
 import React from "react";
 import Container from "react-bootstrap/Container";
-// import Row from "react-bootstrap/Row";
-// import Col from "react-bootstrap/Col";
-// import Card from "react-bootstrap/Card";
-// import "./Cards.css";
-// import Button from "react-bootstrap/Button";
+import "./Summer.css";
+
 import { LinkContainer } from "react-router-bootstrap";
 import { useSpring, animated } from "react-spring";
 
@@ -36,7 +33,7 @@ function SummerDestinations() {
             <button className="btn btn-custom my-5">Plan a group tour</button>
           </div>
           <div className="col-md-5">
-            <img src="images/ss.jpeg"></img>
+            <img className="responsive" src="images/ss.jpeg"></img>
           </div>
         </div>
       </div>

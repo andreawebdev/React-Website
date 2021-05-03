@@ -54,7 +54,10 @@ class CardsBigger extends React.Component {
               <Card.Body>
                 <Card.Title>Greece Travel Tips</Card.Title>
                 <Card.Text>
-                
+                  <p>
+                    {" "}
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  </p>
                 </Card.Text>
                 <Button variant="outline-warning" className="btn-custom ">
                   Read more
@@ -67,7 +70,10 @@ class CardsBigger extends React.Component {
               <Card.Body>
                 <Card.Title>Paris Travel Tips</Card.Title>
                 <Card.Text>
-                 
+                  <p>
+                    {" "}
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  </p>
                 </Card.Text>
                 <Button variant="outline-warning" className="btn-custom ">
                   Read more
@@ -79,7 +85,10 @@ class CardsBigger extends React.Component {
               <Card.Body>
                 <Card.Title>Maldive Travel Tips</Card.Title>
                 <Card.Text>
-                 
+                  <p>
+                    {" "}
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  </p>
                 </Card.Text>
                 <Button variant="outline-warning" className="btn-custom ">
                   Read more
@@ -92,7 +101,10 @@ class CardsBigger extends React.Component {
               <Card.Body>
                 <Card.Title>Praga Travel Tips</Card.Title>
                 <Card.Text>
-                  
+                  <p>
+                    {" "}
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  </p>
                 </Card.Text>
                 <Button variant="outline-warning" className="btn-custom ">
                   Read more

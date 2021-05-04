@@ -20,16 +20,9 @@ function SummerDestinations() {
         <div className="row">
           <div className="col-md-6">
             <p className="py-5 text-justify">
-              From destination weddings to corporate retreats to family
-              reunions, turn your special occasion into a memorable getaway with
-              the experts at Liberty Group Travel. They’ll plan a custom group
-              vacation package complete with elevated services, exclusive rates,
-              and unique amenities for a celebration you and your guests will
-              never forget. Lorem ipsum dolor sit amet, consectetur adipiscing
-              elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem
-              ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum
-              dolor sit amet, consectetur adipiscing elit.
+             Mauris leo purus, luctus et enim ut, euismod fringilla metus. Nam vestibulum dapibus massa, sit amet malesuada lacus dapibus non. Vivamus vitae erat odio. Maecenas vitae finibus tortor. Sed sed est fringilla, congue dui at, interdum mi. Vestibulum mattis orci felis, sed pellentesque odio rutrum ut. Vestibulum porttitor magna metus, eget convallis quam tempus at. Morbi convallis, sem vel mattis pellentesque, sapien nulla cursus enim, dapibus ornare enim odio sed libero. Nullam blandit ipsum et velit venenatis, ut feugiat mauris dignissim. Nullam iaculis purus dapibus porta commodo. Nullam sit amet enim nec nisi egestas pulvinar id sit amet ipsum. Quisque ullamcorper elit id turpis vehicula, id egestas ligula ornare. Integer vel ultricies mi, nec iaculis mauris. Donec vitae nibh placerat metus facilisis ullamcorper.
+
+Quisque ut laoreet ante. Quisque ut fringilla nunc. Integer ut lorem justo. Quisque sed tortor elit. Duis hendrerit quam in posuere consequat. Donec sit amet dolor nec.
             </p>
             <button className="btn btn-custom ">Plan a group tour</button>
           </div>

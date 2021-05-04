@@ -34,11 +34,7 @@ function SummerDestinations() {
             <button className="btn btn-custom ">Plan a group tour</button>
           </div>
           <div className="col-md-6 my-3">
-            {/* <img
-              className="responsive"
-              src="images/ss.jpeg"
-              roundedCircle
-            ></img> */}
+        
             <Image className="responsive" src="images/ss.jpeg" roundedCircle />
           </div>
         </div>

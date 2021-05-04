@@ -2,7 +2,6 @@ import React from "react";
 import Container from "react-bootstrap/Container";
 import Image from "react-bootstrap/Image";
 import "./Summer.css";
-
 import { LinkContainer } from "react-router-bootstrap";
 import { useSpring, animated } from "react-spring";
 

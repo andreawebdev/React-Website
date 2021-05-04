@@ -48,7 +48,7 @@ function Aboutus() {
               lacinia sagittis augue vel tempus. Fusce malesuada erat nisi, eget
               gravida dolor porta sed. Duis a lacus porttitor, blandit purus id,
               euismod nunc. Morbi nec nisi et diam facilisis varius.
-              {/* <img className="about_us1 my-4" src="images/tropea.jpg" /> */}
+          
             </animated.div>
           </div>
         </div>

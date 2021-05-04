@@ -30,14 +30,10 @@ class NavBar extends React.Component {
               <Nav.Link href="#about">About</Nav.Link>
               <Nav.Link href="#destinations">Destinations</Nav.Link>
 
-              {/* <Nav.Link href="#promo">Promo offers</Nav.Link> */}
               <Nav.Link href="#news">News</Nav.Link>
               <LinkContainer disabled to="/services">
                 <Nav.Link>Services</Nav.Link>
               </LinkContainer>
-              {/* <LinkContainer disabled to="/products">
-                <Nav.Link>Products</Nav.Link>
-              </LinkContainer> */}
 
               <NavDropdown.Divider />
             </Nav>
@@ -47,9 +43,7 @@ class NavBar extends React.Component {
                 <Button variant="outline-warning">Sign Up</Button>
               </Form>
             </LinkContainer>
-            {/* <Form inline>
-            <Button variant="outline-warning">Sign Up</Button>
-          </Form> */}
+   
           </Navbar.Collapse>
         </Navbar>
       </nav>

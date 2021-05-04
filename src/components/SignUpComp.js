@@ -1,9 +1,8 @@
 import React, { Component } from "react";
-// import "../../App.css"
 import "../App.css";
 import "./Header.css";
 import "./SignUpComp.css";
-// import Form from "react-bootstrap/Form";
+
 
 class SignUp extends Component {
   constructor() {
@@ -72,7 +71,7 @@ class SignUp extends Component {
 
           <div className="form-div myform">
             <form onSubmit={this.onSubmit}>
-              {/* <span class="label label-default text-left">Fmull</span> */}
+           
               <input
                 type="text"
                 onChange={this.changefullname}
@@ -80,7 +79,7 @@ class SignUp extends Component {
                 className="form-control form-group"
                 placeholder="Fullname"
               />
-              {/* <span class="label label-default text-left">Fullname</span> */}
+        
               <input
                 type="text"
                 onChange={this.changeusername}
@@ -88,7 +87,7 @@ class SignUp extends Component {
                 className="form-control form-group"
                 placeholder="Username"
               />
-              {/* <span class="label label-default text-left">Email</span> */}
+              
               <input
                 type="text"
                 onChange={this.changeemail}
@@ -96,7 +95,7 @@ class SignUp extends Component {
                 className="form-control form-group"
                 placeholder="Email"
               />
-              {/* <span class="label label-default text-left">Password</spa */}
+              
               <input
                 type="password"
                 onChange={this.changepassword}

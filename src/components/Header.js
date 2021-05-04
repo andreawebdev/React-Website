@@ -52,11 +52,10 @@ export default class Header extends Component {
                 Relax your body and soul in the most remote corners of the
                 world.
               </p>
+              
             </div>
           </div>
         </div>
-
-        
       </header>
     );
   }
